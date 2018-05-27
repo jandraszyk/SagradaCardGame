@@ -3,7 +3,27 @@ guid: 0ffac6e8c865f9b4a9749b8a6aac592d
 timeCreated: 1521998714
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: luz_celestial_0
+    21300002: luz_celestial_1
+    21300004: luz_celestial_2
+    21300006: luz_celestial_3
+    21300008: luz_celestial_4
+    21300010: luz_celestial_5
+    21300012: luz_celestial_6
+    21300014: luz_celestial_7
+    21300016: luz_celestial_8
+    21300018: luz_celestial_9
+    21300020: luz_celestial_10
+    21300022: luz_celestial_11
+    21300024: luz_celestial_12
+    21300026: luz_celestial_13
+    21300028: luz_celestial_14
+    21300030: luz_celestial_15
+    21300032: luz_celestial_16
+    21300034: luz_celestial_17
+    21300036: luz_celestial_18
+    21300038: luz_celestial_19
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,7 +60,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -66,9 +86,319 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: luz_celestial_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 257
+        width: 67
+        height: 67
+      alignment: 9
+      pivot: {x: 15, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luz_celestial_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 257
+        width: 67
+        height: 67
+      alignment: 9
+      pivot: {x: 15, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luz_celestial_2
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 256
+        width: 66
+        height: 68
+      alignment: 9
+      pivot: {x: 15, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luz_celestial_3
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 257
+        width: 67
+        height: 67
+      alignment: 9
+      pivot: {x: 15, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luz_celestial_4
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 257
+        width: 67
+        height: 67
+      alignment: 9
+      pivot: {x: 15, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luz_celestial_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 182
+        width: 67
+        height: 67
+      alignment: 9
+      pivot: {x: 15, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luz_celestial_6
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 182
+        width: 67
+        height: 67
+      alignment: 9
+      pivot: {x: 15, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luz_celestial_7
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 182
+        width: 67
+        height: 67
+      alignment: 9
+      pivot: {x: 15, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luz_celestial_8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 182
+        width: 67
+        height: 67
+      alignment: 9
+      pivot: {x: 15, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luz_celestial_9
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 182
+        width: 67
+        height: 67
+      alignment: 9
+      pivot: {x: 15, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luz_celestial_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 107
+        width: 67
+        height: 67
+      alignment: 9
+      pivot: {x: 15, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luz_celestial_11
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 107
+        width: 70
+        height: 67
+      alignment: 9
+      pivot: {x: 15, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luz_celestial_12
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 107
+        width: 67
+        height: 67
+      alignment: 9
+      pivot: {x: 15, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luz_celestial_13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 107
+        width: 67
+        height: 67
+      alignment: 9
+      pivot: {x: 15, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luz_celestial_14
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 107
+        width: 67
+        height: 67
+      alignment: 9
+      pivot: {x: 15, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luz_celestial_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 32
+        width: 67
+        height: 67
+      alignment: 9
+      pivot: {x: 15, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luz_celestial_16
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 32
+        width: 70
+        height: 68
+      alignment: 9
+      pivot: {x: 15, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luz_celestial_17
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 32
+        width: 67
+        height: 67
+      alignment: 9
+      pivot: {x: 15, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luz_celestial_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 67
+        height: 67
+      alignment: 9
+      pivot: {x: 15, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luz_celestial_19
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 32
+        width: 67
+        height: 67
+      alignment: 9
+      pivot: {x: 15, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
