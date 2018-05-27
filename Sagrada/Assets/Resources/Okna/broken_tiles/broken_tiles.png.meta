@@ -1,29 +1,31 @@
 fileFormatVersion: 2
-guid: 5f3db009c7dfcdb4fa0811df04c603ea
+guid: 80a1eb41a6135d64ea3b5ba37a8e1934
 timeCreated: 1521998714
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: shattered_0
-    21300002: shattered_1
-    21300004: shattered_2
-    21300006: shattered_3
-    21300008: shattered_4
-    21300010: shattered_5
-    21300012: shattered_6
-    21300014: shattered_7
-    21300016: shattered_8
-    21300018: shattered_9
-    21300020: shattered_10
-    21300022: shattered_11
-    21300024: shattered_12
-    21300026: shattered_13
-    21300028: shattered_14
-    21300030: shattered_15
-    21300032: shattered_16
-    21300034: shattered_17
-    21300036: shattered_18
-    21300038: shattered_19
+    21300000: broken_tiles_0
+    21300002: broken_tiles_1
+    21300004: broken_tiles_2
+    21300006: broken_tiles_3
+    21300008: broken_tiles_4
+    21300010: broken_tiles_5
+    21300012: broken_tiles_6
+    21300014: broken_tiles_7
+    21300016: broken_tiles_8
+    21300018: broken_tiles_9
+    21300020: broken_tiles_10
+    21300022: broken_tiles_11
+    21300024: broken_tiles_12
+    21300026: broken_tiles_13
+    21300028: broken_tiles_14
+    21300030: broken_tiles_15
+    21300032: broken_tiles_16
+    21300034: broken_tiles_17
+    21300036: broken_tiles_18
+    21300038: broken_tiles_19
+    21300040: broken_tiles_name
+    21300042: broken_tiles_difficulty
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -120,281 +122,309 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: shattered_0
+      name: broken_tiles_0
       rect:
         serializedVersion: 2
         x: 15
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: shattered_1
-      rect:
-        serializedVersion: 2
-        x: 91
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shattered_2
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shattered_3
-      rect:
-        serializedVersion: 2
-        x: 239
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shattered_4
-      rect:
-        serializedVersion: 2
-        x: 315
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shattered_5
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 182
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shattered_6
+      name: broken_tiles_1
       rect:
         serializedVersion: 2
         x: 90
-        y: 182
-        width: 69
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: shattered_7
+      name: broken_tiles_2
       rect:
         serializedVersion: 2
         x: 165
-        y: 182
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: shattered_8
+      name: broken_tiles_3
       rect:
         serializedVersion: 2
         x: 240
-        y: 182
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: shattered_9
-      rect:
-        serializedVersion: 2
-        x: 314
-        y: 182
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shattered_10
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 107
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shattered_11
-      rect:
-        serializedVersion: 2
-        x: 91
-        y: 108
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shattered_12
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 107
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shattered_13
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 107
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shattered_14
-      rect:
-        serializedVersion: 2
-        x: 316
-        y: 106
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shattered_15
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 32
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shattered_16
-      rect:
-        serializedVersion: 2
-        x: 91
-        y: 33
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shattered_17
-      rect:
-        serializedVersion: 2
-        x: 164
-        y: 32
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shattered_18
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 32
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shattered_19
+      name: broken_tiles_4
       rect:
         serializedVersion: 2
         x: 315
-        y: 32
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: broken_tiles_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: broken_tiles_6
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: broken_tiles_7
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: broken_tiles_8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: broken_tiles_9
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: broken_tiles_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: broken_tiles_11
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: broken_tiles_12
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: broken_tiles_13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: broken_tiles_14
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: broken_tiles_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: broken_tiles_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: broken_tiles_17
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: broken_tiles_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: broken_tiles_19
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: broken_tiles_name
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 300
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: broken_tiles_difficulty
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 75
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

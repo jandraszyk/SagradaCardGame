@@ -1,29 +1,31 @@
 fileFormatVersion: 2
-guid: 8c09d543d5be60e4fb57082fdb85367c
+guid: b9f27285398b09e49a9648cab3878880
 timeCreated: 1521998716
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: aurora_sagradis_0
-    21300002: aurora_sagradis_1
-    21300004: aurora_sagradis_2
-    21300006: aurora_sagradis_3
-    21300008: aurora_sagradis_4
-    21300010: aurora_sagradis_5
-    21300012: aurora_sagradis_6
-    21300014: aurora_sagradis_7
-    21300016: aurora_sagradis_8
-    21300018: aurora_sagradis_9
-    21300020: aurora_sagradis_10
-    21300022: aurora_sagradis_11
-    21300024: aurora_sagradis_12
-    21300026: aurora_sagradis_13
-    21300028: aurora_sagradis_14
-    21300030: aurora_sagradis_15
-    21300032: aurora_sagradis_16
-    21300034: aurora_sagradis_17
-    21300036: aurora_sagradis_18
-    21300038: aurora_sagradis_19
+    21300000: industria_0
+    21300002: industria_1
+    21300004: industria_2
+    21300006: industria_3
+    21300008: industria_4
+    21300010: industria_5
+    21300012: industria_6
+    21300014: industria_7
+    21300016: industria_8
+    21300018: industria_9
+    21300020: industria_10
+    21300022: industria_11
+    21300024: industria_12
+    21300026: industria_13
+    21300028: industria_14
+    21300030: industria_15
+    21300032: industria_16
+    21300034: industria_17
+    21300036: industria_18
+    21300038: industria_19
+    21300040: industria_name
+    21300042: industria_difficulty
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -120,281 +122,309 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: aurora_sagradis_0
+      name: industria_0
       rect:
         serializedVersion: 2
         x: 15
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: aurora_sagradis_1
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: aurora_sagradis_2
-      rect:
-        serializedVersion: 2
-        x: 164
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: aurora_sagradis_3
-      rect:
-        serializedVersion: 2
-        x: 239
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: aurora_sagradis_4
-      rect:
-        serializedVersion: 2
-        x: 315
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: aurora_sagradis_5
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 182
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: aurora_sagradis_6
+      name: industria_1
       rect:
         serializedVersion: 2
         x: 90
-        y: 183
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: aurora_sagradis_7
+      name: industria_2
       rect:
         serializedVersion: 2
         x: 165
-        y: 182
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: aurora_sagradis_8
+      name: industria_3
       rect:
         serializedVersion: 2
         x: 240
-        y: 181
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: aurora_sagradis_9
-      rect:
-        serializedVersion: 2
-        x: 313
-        y: 182
-        width: 70
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: aurora_sagradis_10
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 107
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: aurora_sagradis_11
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 107
-        width: 69
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: aurora_sagradis_12
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 107
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: aurora_sagradis_13
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 107
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: aurora_sagradis_14
+      name: industria_4
       rect:
         serializedVersion: 2
         x: 315
-        y: 107
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: aurora_sagradis_15
+      name: industria_5
       rect:
         serializedVersion: 2
         x: 15
-        y: 32
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: aurora_sagradis_16
+      name: industria_6
       rect:
         serializedVersion: 2
-        x: 89
-        y: 32
-        width: 69
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        x: 90
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: aurora_sagradis_17
+      name: industria_7
       rect:
         serializedVersion: 2
         x: 165
-        y: 33
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: aurora_sagradis_18
+      name: industria_8
       rect:
         serializedVersion: 2
-        x: 237
-        y: 32
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        x: 240
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: aurora_sagradis_19
+      name: industria_9
       rect:
         serializedVersion: 2
         x: 315
-        y: 32
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: industria_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: industria_11
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: industria_12
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: industria_13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: industria_14
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: industria_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: industria_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: industria_17
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: industria_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: industria_19
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: industria_name
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 300
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: industria_difficulty
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 75
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

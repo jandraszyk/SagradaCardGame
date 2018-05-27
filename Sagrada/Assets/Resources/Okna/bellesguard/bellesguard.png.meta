@@ -1,29 +1,31 @@
 fileFormatVersion: 2
-guid: b9f27285398b09e49a9648cab3878880
+guid: 88c8260d7ad766b4f9b46ad1e235c47a
 timeCreated: 1521998716
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: industria_0
-    21300002: industria_1
-    21300004: industria_2
-    21300006: industria_3
-    21300008: industria_4
-    21300010: industria_5
-    21300012: industria_6
-    21300014: industria_7
-    21300016: industria_8
-    21300018: industria_9
-    21300020: industria_10
-    21300022: industria_11
-    21300024: industria_12
-    21300026: industria_13
-    21300028: industria_14
-    21300030: industria_15
-    21300032: industria_16
-    21300034: industria_17
-    21300036: industria_18
-    21300038: industria_19
+    21300000: bellesguard_0
+    21300002: bellesguard_1
+    21300004: bellesguard_2
+    21300006: bellesguard_3
+    21300008: bellesguard_4
+    21300010: bellesguard_5
+    21300012: bellesguard_6
+    21300014: bellesguard_7
+    21300016: bellesguard_8
+    21300018: bellesguard_9
+    21300020: bellesguard_10
+    21300022: bellesguard_11
+    21300024: bellesguard_12
+    21300026: bellesguard_13
+    21300028: bellesguard_14
+    21300030: bellesguard_15
+    21300032: bellesguard_16
+    21300034: bellesguard_17
+    21300036: bellesguard_18
+    21300038: bellesguard_19
+    21300040: bellesguard_20
+    21300042: bellesguard_21
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -120,281 +122,309 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: industria_0
+      name: bellesguard_0
       rect:
         serializedVersion: 2
         x: 15
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: industria_1
-      rect:
-        serializedVersion: 2
-        x: 91
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: industria_2
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 255
-        width: 67
-        height: 69
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: industria_3
-      rect:
-        serializedVersion: 2
-        x: 239
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: industria_4
-      rect:
-        serializedVersion: 2
-        x: 316
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: industria_5
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 182
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: industria_6
+      name: bellesguard_1
       rect:
         serializedVersion: 2
         x: 90
-        y: 184
-        width: 67
-        height: 65
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: industria_7
-      rect:
-        serializedVersion: 2
-        x: 164
-        y: 182
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: industria_8
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 182
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: industria_9
-      rect:
-        serializedVersion: 2
-        x: 314
-        y: 182
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: industria_10
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 107
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: industria_11
-      rect:
-        serializedVersion: 2
-        x: 91
-        y: 107
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: industria_12
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 107
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: industria_13
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 108
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: industria_14
-      rect:
-        serializedVersion: 2
-        x: 314
-        y: 107
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: industria_15
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 32
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: industria_16
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 32
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: industria_17
+      name: bellesguard_2
       rect:
         serializedVersion: 2
         x: 165
-        y: 32
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: industria_18
+      name: bellesguard_3
       rect:
         serializedVersion: 2
-        x: 238
-        y: 32
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        x: 240
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: industria_19
+      name: bellesguard_4
       rect:
         serializedVersion: 2
         x: 315
-        y: 32
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bellesguard_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bellesguard_6
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bellesguard_7
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bellesguard_8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bellesguard_9
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bellesguard_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bellesguard_11
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bellesguard_12
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bellesguard_13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bellesguard_14
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bellesguard_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bellesguard_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bellesguard_17
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bellesguard_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bellesguard_19
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bellesguard_20
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 301
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bellesguard_21
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 75
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

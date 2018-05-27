@@ -1,29 +1,31 @@
 fileFormatVersion: 2
-guid: 88c8260d7ad766b4f9b46ad1e235c47a
+guid: 87f47ebb96ecb6644a8d6f86079a00c8
 timeCreated: 1521998716
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: bellesguard_0
-    21300002: bellesguard_1
-    21300004: bellesguard_2
-    21300006: bellesguard_3
-    21300008: bellesguard_4
-    21300010: bellesguard_5
-    21300012: bellesguard_6
-    21300014: bellesguard_7
-    21300016: bellesguard_8
-    21300018: bellesguard_9
-    21300020: bellesguard_10
-    21300022: bellesguard_11
-    21300024: bellesguard_12
-    21300026: bellesguard_13
-    21300028: bellesguard_14
-    21300030: bellesguard_15
-    21300032: bellesguard_16
-    21300034: bellesguard_17
-    21300036: bellesguard_18
-    21300038: bellesguard_19
+    21300000: chromatic_0
+    21300002: chromatic_1
+    21300004: chromatic_2
+    21300006: chromatic_3
+    21300008: chromatic_4
+    21300010: chromatic_5
+    21300012: chromatic_6
+    21300014: chromatic_7
+    21300016: chromatic_8
+    21300018: chromatic_9
+    21300020: chromatic_10
+    21300022: chromatic_11
+    21300024: chromatic_12
+    21300026: chromatic_13
+    21300028: chromatic_14
+    21300030: chromatic_15
+    21300032: chromatic_16
+    21300034: chromatic_17
+    21300036: chromatic_18
+    21300038: chromatic_19
+    21300040: chromatic_name
+    21300042: chromatic_difficulty
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -120,281 +122,309 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bellesguard_0
+      name: chromatic_0
       rect:
         serializedVersion: 2
         x: 15
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bellesguard_1
-      rect:
-        serializedVersion: 2
-        x: 91
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bellesguard_2
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bellesguard_3
-      rect:
-        serializedVersion: 2
-        x: 239
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bellesguard_4
-      rect:
-        serializedVersion: 2
-        x: 315
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bellesguard_5
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 182
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bellesguard_6
+      name: chromatic_1
       rect:
         serializedVersion: 2
         x: 90
-        y: 184
-        width: 67
-        height: 64
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bellesguard_7
+      name: chromatic_2
       rect:
         serializedVersion: 2
         x: 165
-        y: 181
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bellesguard_8
+      name: chromatic_3
       rect:
         serializedVersion: 2
         x: 240
-        y: 182
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bellesguard_9
+      name: chromatic_4
       rect:
         serializedVersion: 2
         x: 315
-        y: 182
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bellesguard_10
+      name: chromatic_5
       rect:
         serializedVersion: 2
         x: 15
-        y: 107
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bellesguard_11
+      name: chromatic_6
       rect:
         serializedVersion: 2
         x: 90
-        y: 107
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bellesguard_12
+      name: chromatic_7
       rect:
         serializedVersion: 2
-        x: 164
-        y: 107
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        x: 165
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bellesguard_13
+      name: chromatic_8
       rect:
         serializedVersion: 2
         x: 240
-        y: 108
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bellesguard_14
+      name: chromatic_9
       rect:
         serializedVersion: 2
         x: 315
-        y: 107
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bellesguard_15
+      name: chromatic_10
       rect:
         serializedVersion: 2
         x: 15
-        y: 32
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bellesguard_16
+      name: chromatic_11
       rect:
         serializedVersion: 2
-        x: 89
-        y: 32
-        width: 70
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        x: 90
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bellesguard_17
+      name: chromatic_12
       rect:
         serializedVersion: 2
-        x: 164
-        y: 32
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        x: 165
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bellesguard_18
+      name: chromatic_13
       rect:
         serializedVersion: 2
         x: 240
-        y: 32
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bellesguard_19
+      name: chromatic_14
       rect:
         serializedVersion: 2
         x: 315
-        y: 32
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chromatic_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 27
+        width: 75
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chromatic_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 27
+        width: 75
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chromatic_17
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 27
+        width: 75
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chromatic_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 27
+        width: 75
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chromatic_19
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 27
+        width: 75
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chromatic_name
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 301
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chromatic_difficulty
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 75
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

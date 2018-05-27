@@ -1,29 +1,31 @@
 fileFormatVersion: 2
-guid: d89a3b00699ac2a40bcfe86331839778
-timeCreated: 1521998716
+guid: 5f3db009c7dfcdb4fa0811df04c603ea
+timeCreated: 1521998714
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: shades_of_glass_0
-    21300002: shades_of_glass_1
-    21300004: shades_of_glass_2
-    21300006: shades_of_glass_3
-    21300008: shades_of_glass_4
-    21300010: shades_of_glass_5
-    21300012: shades_of_glass_6
-    21300014: shades_of_glass_7
-    21300016: shades_of_glass_8
-    21300018: shades_of_glass_9
-    21300020: shades_of_glass_10
-    21300022: shades_of_glass_11
-    21300024: shades_of_glass_12
-    21300026: shades_of_glass_13
-    21300028: shades_of_glass_14
-    21300030: shades_of_glass_15
-    21300032: shades_of_glass_16
-    21300034: shades_of_glass_17
-    21300036: shades_of_glass_18
-    21300038: shades_of_glass_19
+    21300000: shattered_0
+    21300002: shattered_1
+    21300004: shattered_2
+    21300006: shattered_3
+    21300008: shattered_4
+    21300010: shattered_5
+    21300012: shattered_6
+    21300014: shattered_7
+    21300016: shattered_8
+    21300018: shattered_9
+    21300020: shattered_10
+    21300022: shattered_11
+    21300024: shattered_12
+    21300026: shattered_13
+    21300028: shattered_14
+    21300030: shattered_15
+    21300032: shattered_16
+    21300034: shattered_17
+    21300036: shattered_18
+    21300038: shattered_19
+    21300040: shattered_name
+    21300042: shattered_difficulty
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -120,281 +122,309 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: shades_of_glass_0
+      name: shattered_0
       rect:
         serializedVersion: 2
         x: 15
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: shades_of_glass_1
-      rect:
-        serializedVersion: 2
-        x: 91
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shades_of_glass_2
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shades_of_glass_3
-      rect:
-        serializedVersion: 2
-        x: 239
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shades_of_glass_4
-      rect:
-        serializedVersion: 2
-        x: 315
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shades_of_glass_5
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 182
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shades_of_glass_6
+      name: shattered_1
       rect:
         serializedVersion: 2
         x: 90
-        y: 184
-        width: 67
-        height: 65
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: shades_of_glass_7
+      name: shattered_2
       rect:
         serializedVersion: 2
         x: 165
-        y: 182
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: shades_of_glass_8
+      name: shattered_3
       rect:
         serializedVersion: 2
         x: 240
-        y: 182
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: shades_of_glass_9
-      rect:
-        serializedVersion: 2
-        x: 314
-        y: 182
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shades_of_glass_10
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 107
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shades_of_glass_11
-      rect:
-        serializedVersion: 2
-        x: 91
-        y: 107
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shades_of_glass_12
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 107
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shades_of_glass_13
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 108
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: shades_of_glass_14
+      name: shattered_4
       rect:
         serializedVersion: 2
         x: 315
-        y: 107
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: shades_of_glass_15
+      name: shattered_5
       rect:
         serializedVersion: 2
         x: 15
-        y: 32
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: shades_of_glass_16
+      name: shattered_6
       rect:
         serializedVersion: 2
-        x: 89
-        y: 32
-        width: 69
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        x: 90
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: shades_of_glass_17
+      name: shattered_7
       rect:
         serializedVersion: 2
         x: 165
-        y: 31
-        width: 66
-        height: 68
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: shades_of_glass_18
+      name: shattered_8
       rect:
         serializedVersion: 2
-        x: 238
-        y: 32
-        width: 70
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        x: 240
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: shades_of_glass_19
+      name: shattered_9
       rect:
         serializedVersion: 2
         x: 315
-        y: 32
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shattered_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shattered_11
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shattered_12
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shattered_13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shattered_14
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shattered_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shattered_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shattered_17
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shattered_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shattered_19
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shattered_name
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 300
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shattered_difficulty
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 75
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

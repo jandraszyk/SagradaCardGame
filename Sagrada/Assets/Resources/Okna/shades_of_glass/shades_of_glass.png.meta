@@ -1,29 +1,31 @@
 fileFormatVersion: 2
-guid: 0ffac6e8c865f9b4a9749b8a6aac592d
-timeCreated: 1521998714
+guid: d89a3b00699ac2a40bcfe86331839778
+timeCreated: 1521998716
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: luz_celestial_0
-    21300002: luz_celestial_1
-    21300004: luz_celestial_2
-    21300006: luz_celestial_3
-    21300008: luz_celestial_4
-    21300010: luz_celestial_5
-    21300012: luz_celestial_6
-    21300014: luz_celestial_7
-    21300016: luz_celestial_8
-    21300018: luz_celestial_9
-    21300020: luz_celestial_10
-    21300022: luz_celestial_11
-    21300024: luz_celestial_12
-    21300026: luz_celestial_13
-    21300028: luz_celestial_14
-    21300030: luz_celestial_15
-    21300032: luz_celestial_16
-    21300034: luz_celestial_17
-    21300036: luz_celestial_18
-    21300038: luz_celestial_19
+    21300000: shades_of_glass_0
+    21300002: shades_of_glass_1
+    21300004: shades_of_glass_2
+    21300006: shades_of_glass_3
+    21300008: shades_of_glass_4
+    21300010: shades_of_glass_5
+    21300012: shades_of_glass_6
+    21300014: shades_of_glass_7
+    21300016: shades_of_glass_8
+    21300018: shades_of_glass_9
+    21300020: shades_of_glass_10
+    21300022: shades_of_glass_11
+    21300024: shades_of_glass_12
+    21300026: shades_of_glass_13
+    21300028: shades_of_glass_14
+    21300030: shades_of_glass_15
+    21300032: shades_of_glass_16
+    21300034: shades_of_glass_17
+    21300036: shades_of_glass_18
+    21300038: shades_of_glass_19
+    21300040: shades_of_glass_name
+    21300042: shades_of_glass_difficulty
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -120,281 +122,309 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: luz_celestial_0
+      name: shades_of_glass_0
       rect:
         serializedVersion: 2
         x: 15
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: luz_celestial_1
+      name: shades_of_glass_1
       rect:
         serializedVersion: 2
         x: 90
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: luz_celestial_2
+      name: shades_of_glass_2
       rect:
         serializedVersion: 2
         x: 165
-        y: 256
-        width: 66
-        height: 68
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: luz_celestial_3
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: luz_celestial_4
-      rect:
-        serializedVersion: 2
-        x: 315
-        y: 257
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: luz_celestial_5
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 182
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: luz_celestial_6
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 182
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: luz_celestial_7
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 182
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: luz_celestial_8
+      name: shades_of_glass_3
       rect:
         serializedVersion: 2
         x: 240
-        y: 182
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: luz_celestial_9
+      name: shades_of_glass_4
       rect:
         serializedVersion: 2
-        x: 314
-        y: 182
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        x: 315
+        y: 249
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: luz_celestial_10
+      name: shades_of_glass_5
       rect:
         serializedVersion: 2
         x: 15
-        y: 107
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: luz_celestial_11
+      name: shades_of_glass_6
       rect:
         serializedVersion: 2
         x: 90
-        y: 107
-        width: 70
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: luz_celestial_12
+      name: shades_of_glass_7
       rect:
         serializedVersion: 2
         x: 165
-        y: 107
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: luz_celestial_13
+      name: shades_of_glass_8
       rect:
         serializedVersion: 2
         x: 240
-        y: 107
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: luz_celestial_14
+      name: shades_of_glass_9
       rect:
         serializedVersion: 2
         x: 315
-        y: 107
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 174
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: luz_celestial_15
+      name: shades_of_glass_10
       rect:
         serializedVersion: 2
         x: 15
-        y: 32
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: luz_celestial_16
+      name: shades_of_glass_11
       rect:
         serializedVersion: 2
-        x: 89
-        y: 32
-        width: 70
-        height: 68
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        x: 90
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: luz_celestial_17
+      name: shades_of_glass_12
       rect:
         serializedVersion: 2
         x: 165
-        y: 32
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: luz_celestial_18
+      name: shades_of_glass_13
       rect:
         serializedVersion: 2
         x: 240
-        y: 32
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: luz_celestial_19
+      name: shades_of_glass_14
       rect:
         serializedVersion: 2
         x: 315
-        y: 32
-        width: 67
-        height: 67
-      alignment: 9
-      pivot: {x: 15, y: 15}
+        y: 99
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shades_of_glass_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shades_of_glass_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shades_of_glass_17
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shades_of_glass_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shades_of_glass_19
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 24
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shades_of_glass_name
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 300
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shades_of_glass_difficulty
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 75
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
