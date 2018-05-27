@@ -9,6 +9,7 @@ public class PopulateWindow : MonoBehaviour {
     public int numOfTiles;
     public GameObject sprite;
     public string nameOfWindow;
+    private SpriteRenderer spriteRenderer;
 
 	// Use this for initialization
 	void Start () {
@@ -23,11 +24,12 @@ public class PopulateWindow : MonoBehaviour {
     private void Populate()
     {
 
-    GameObject newTile;
-        for(int i=0; i< numOfTiles; i++)
+        GameObject newTile;
+        Sprite[] sprites = Resources.LoadAll<Sprite>("Okna/" + nameOfWindow);
+        for(int i=0; i< sprites.Length; i++)
         {
             newTile = (GameObject)Instantiate(sprite, transform);
-            newTile.GetComponent<Image>().sprite = Resources.Load<Sprite>("Okna/aurora_sagradis/8");
+            newTile.GetComponent<Image>().sprite = /*Resources.Load<Sprite>("Okna/aurora_sagradis/8")*/ sprites[i];
         }
     }
 }

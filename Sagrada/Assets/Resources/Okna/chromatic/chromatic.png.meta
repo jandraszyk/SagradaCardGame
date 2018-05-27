@@ -126,11 +126,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 15
-        y: 249
-        width: 75
-        height: 75
+        y: 257
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,12 +139,12 @@ TextureImporter:
       name: chromatic_1
       rect:
         serializedVersion: 2
-        x: 90
-        y: 249
-        width: 75
-        height: 75
+        x: 91
+        y: 257
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -154,11 +154,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 165
-        y: 249
-        width: 75
-        height: 75
+        y: 257
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -167,12 +167,12 @@ TextureImporter:
       name: chromatic_3
       rect:
         serializedVersion: 2
-        x: 240
-        y: 249
-        width: 75
-        height: 75
+        x: 241
+        y: 257
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,12 +181,12 @@ TextureImporter:
       name: chromatic_4
       rect:
         serializedVersion: 2
-        x: 315
-        y: 249
-        width: 75
-        height: 75
+        x: 316
+        y: 257
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -195,12 +195,12 @@ TextureImporter:
       name: chromatic_5
       rect:
         serializedVersion: 2
-        x: 15
-        y: 174
-        width: 75
-        height: 75
+        x: 14
+        y: 182
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -209,12 +209,12 @@ TextureImporter:
       name: chromatic_6
       rect:
         serializedVersion: 2
-        x: 90
-        y: 174
-        width: 75
-        height: 75
+        x: 91
+        y: 182
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -224,11 +224,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 165
-        y: 174
-        width: 75
-        height: 75
+        y: 181
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -238,11 +238,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 174
-        width: 75
-        height: 75
+        y: 182
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -251,12 +251,12 @@ TextureImporter:
       name: chromatic_9
       rect:
         serializedVersion: 2
-        x: 315
-        y: 174
-        width: 75
-        height: 75
+        x: 314
+        y: 181
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -266,11 +266,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 15
-        y: 99
-        width: 75
-        height: 75
+        y: 107
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -279,12 +279,12 @@ TextureImporter:
       name: chromatic_11
       rect:
         serializedVersion: 2
-        x: 90
-        y: 99
-        width: 75
-        height: 75
+        x: 91
+        y: 107
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -294,11 +294,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 165
-        y: 99
-        width: 75
-        height: 75
+        y: 107
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -307,12 +307,12 @@ TextureImporter:
       name: chromatic_13
       rect:
         serializedVersion: 2
-        x: 240
-        y: 99
-        width: 75
-        height: 75
+        x: 241
+        y: 108
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -322,11 +322,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 315
-        y: 99
-        width: 75
-        height: 75
+        y: 107
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -335,12 +335,12 @@ TextureImporter:
       name: chromatic_15
       rect:
         serializedVersion: 2
-        x: 15
-        y: 27
-        width: 75
-        height: 72
+        x: 16
+        y: 32
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -349,12 +349,12 @@ TextureImporter:
       name: chromatic_16
       rect:
         serializedVersion: 2
-        x: 90
-        y: 27
-        width: 75
-        height: 72
+        x: 91
+        y: 32
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -363,12 +363,12 @@ TextureImporter:
       name: chromatic_17
       rect:
         serializedVersion: 2
-        x: 165
-        y: 27
-        width: 75
-        height: 72
+        x: 167
+        y: 33
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -378,11 +378,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 27
-        width: 75
-        height: 72
+        y: 32
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -392,37 +392,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 315
-        y: 27
-        width: 75
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: chromatic_name
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 0
-        width: 301
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: chromatic_difficulty
-      rect:
-        serializedVersion: 2
-        x: 315
-        y: 0
-        width: 75
-        height: 27
+        y: 31
+        width: 67
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

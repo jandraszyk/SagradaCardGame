@@ -126,11 +126,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 15
-        y: 249
-        width: 75
-        height: 75
+        y: 257
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,12 +139,12 @@ TextureImporter:
       name: fractal_drops_1
       rect:
         serializedVersion: 2
-        x: 90
-        y: 249
-        width: 75
-        height: 75
+        x: 91
+        y: 257
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -153,12 +153,12 @@ TextureImporter:
       name: fractal_drops_2
       rect:
         serializedVersion: 2
-        x: 165
-        y: 249
-        width: 75
-        height: 75
+        x: 164
+        y: 257
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -168,11 +168,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 249
-        width: 75
-        height: 75
+        y: 257
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -182,11 +182,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 315
-        y: 249
-        width: 75
-        height: 75
+        y: 257
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -196,11 +196,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 15
-        y: 174
-        width: 75
-        height: 75
+        y: 182
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -209,12 +209,12 @@ TextureImporter:
       name: fractal_drops_6
       rect:
         serializedVersion: 2
-        x: 90
-        y: 174
-        width: 75
-        height: 75
+        x: 91
+        y: 183
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -224,11 +224,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 165
-        y: 174
-        width: 75
-        height: 75
+        y: 183
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -238,11 +238,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 174
-        width: 75
-        height: 75
+        y: 182
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -251,12 +251,12 @@ TextureImporter:
       name: fractal_drops_9
       rect:
         serializedVersion: 2
-        x: 315
-        y: 174
-        width: 75
-        height: 75
+        x: 316
+        y: 181
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -266,11 +266,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 15
-        y: 99
-        width: 75
-        height: 75
+        y: 107
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -279,12 +279,12 @@ TextureImporter:
       name: fractal_drops_11
       rect:
         serializedVersion: 2
-        x: 90
-        y: 99
-        width: 75
-        height: 75
+        x: 91
+        y: 107
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -293,12 +293,12 @@ TextureImporter:
       name: fractal_drops_12
       rect:
         serializedVersion: 2
-        x: 165
-        y: 99
-        width: 75
-        height: 75
+        x: 166
+        y: 107
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -307,12 +307,12 @@ TextureImporter:
       name: fractal_drops_13
       rect:
         serializedVersion: 2
-        x: 240
-        y: 99
-        width: 75
-        height: 75
+        x: 241
+        y: 108
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -322,11 +322,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 315
-        y: 99
-        width: 75
-        height: 75
+        y: 107
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -336,11 +336,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 15
-        y: 24
-        width: 75
-        height: 75
+        y: 33
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -349,12 +349,12 @@ TextureImporter:
       name: fractal_drops_16
       rect:
         serializedVersion: 2
-        x: 90
-        y: 24
-        width: 75
-        height: 75
+        x: 91
+        y: 32
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -363,12 +363,12 @@ TextureImporter:
       name: fractal_drops_17
       rect:
         serializedVersion: 2
-        x: 165
-        y: 24
-        width: 75
-        height: 75
+        x: 164
+        y: 32
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -377,12 +377,12 @@ TextureImporter:
       name: fractal_drops_18
       rect:
         serializedVersion: 2
-        x: 240
-        y: 24
-        width: 75
-        height: 75
+        x: 239
+        y: 32
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -392,37 +392,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 315
-        y: 24
-        width: 75
-        height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: fractal_drops_name
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 0
-        width: 300
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: fractal_drops_difficulty
-      rect:
-        serializedVersion: 2
-        x: 315
-        y: 0
-        width: 75
-        height: 24
+        y: 32
+        width: 67
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
