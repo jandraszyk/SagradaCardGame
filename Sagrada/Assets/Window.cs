@@ -8,7 +8,7 @@ public class Window : MonoBehaviour {
     public int difficulty;
     public bool selected;
     private GameObject windowTileGameObject;
-    public WindowTile baseTile;
+    private WindowTile baseTile;
     public List<WindowTile> windowTiles;
 
     private static int TILES_NUMBER = 11;
@@ -21,17 +21,10 @@ public class Window : MonoBehaviour {
 
     public void createWindow()
     {
-        List<int> uniqueTiles = new List<int>();
 
         for (int i = 0; i < 20; i++)
         {
-            int index;
-            do
-            {
-                index = Random.Range(0, TILES_NUMBER);
-            } while (uniqueTiles.Contains(index));
-            uniqueTiles.Add(index);
-
+            int index = Random.Range(0, TILES_NUMBER);
             WindowTile clone = Instantiate(baseTile) as WindowTile;
             clone.tag = "CloneTile";
             clone.setFront(index);
@@ -81,6 +74,27 @@ public class Window : MonoBehaviour {
     public void setSelected(bool selected)
     {
         this.selected = selected;
+    }
+
+    // [0] - left [1] - right
+    public void moveWindow(int direction)
+    {
+        float dir = 3.0f;
+        if (direction == 0)
+        {
+
+            foreach(WindowTile tile in windowTiles)
+            {
+                tile.transform.position = new Vector3(tile.transform.position.x + dir * -1, tile.transform.position.y, tile.transform.position.z);
+            }
+        }
+        if(direction == 1)
+        {
+            foreach (WindowTile tile in windowTiles)
+            {
+                tile.transform.position = new Vector3(tile.transform.position.x + dir * 1, tile.transform.position.y, tile.transform.position.z);
+            }
+        }
     }
 
 }

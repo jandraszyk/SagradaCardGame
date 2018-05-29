@@ -12,10 +12,6 @@ public class PopulateWindow : MonoBehaviour {
     public Window mWindow;
     public GameObject windowObject;
     System.Random random = new System.Random();
-    private string[] windowNames ={ "aurora_sagradis", "bellesguard", "broken_tiles"
-                                    ,"chromatic", "fractal_drops", "industria", "luz_celestial", "shades_of_glass"
-                                    ,"shadow_thief", "shattered", "sun_catcher", "symphony_of_light"};
-    string window;
 
 	// Use this for initialization
 	void Start () {
@@ -31,7 +27,6 @@ public class PopulateWindow : MonoBehaviour {
 
     private void Populate()
     {
-        window = drawWindow();
         
         Sprite[] sprites = Resources.LoadAll<Sprite>("Okna/Colors");
         System.Random random = new System.Random();
@@ -46,15 +41,8 @@ public class PopulateWindow : MonoBehaviour {
         mWindow.createWindow();
         foreach(WindowTile tile in mWindow.getWindowTiles())
         {
+            tile.transform.position = new Vector3(tile.transform.position.x, -5.35f, tile.transform.position.z);
             Debug.Log("Tiles: " + tile.getTileValue());
         }
-    }
-
-
-    private string drawWindow()
-    {
-        string selectedWindow = "";
-        selectedWindow = windowNames[random.Next(0, windowNames.Length)];
-        return selectedWindow;
     }
 }

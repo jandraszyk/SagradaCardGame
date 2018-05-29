@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WindowTile : MonoBehaviour {
 
-    private string tileValue;
+    public string tileValue;
     private bool active = false;
 
     private SpriteRenderer spriteRenderer;
@@ -65,6 +65,11 @@ public class WindowTile : MonoBehaviour {
     {
         spriteRenderer.sprite = windowModel.getWindow(index);
         tileValue = spriteRenderer.sprite.name;
+    }
+
+    public void moveTiles()
+    {
+
     }
 
 }

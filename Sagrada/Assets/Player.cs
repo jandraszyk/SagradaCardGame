@@ -52,10 +52,10 @@ public class Player : MonoBehaviour {
 
     public void showWindow(bool show)
     {
-        float value = -10;
+        float value = -3.0f;
         foreach(WindowTile tile in window.getWindowTiles())
         {
-            tile.transform.position = new Vector3(tile.transform.position.x, value, tile.transform.position.z);
+            tile.transform.position = new Vector3(value, this.transform.position.y, tile.transform.position.z);
         }
     }
 }
