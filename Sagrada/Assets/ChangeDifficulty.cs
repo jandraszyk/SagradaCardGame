@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ChangeDifficulty : MonoBehaviour {
 
-    private int currentDifficulty = 1;
+    static public int currentDifficulty = 1;
     private int maxLevel = 5;
     private int minLevel = 1;
     public Text lvlDifficulty;
