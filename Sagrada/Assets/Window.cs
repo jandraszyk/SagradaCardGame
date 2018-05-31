@@ -79,20 +79,21 @@ public class Window : MonoBehaviour {
     // [0] - left [1] - right
     public void moveWindow(int direction)
     {
-        float dir = 3.0f;
+        float dirX = 5.0f;
+        float dirY = 1.0f;
         if (direction == 0)
         {
 
             foreach(WindowTile tile in windowTiles)
             {
-                tile.transform.position = new Vector3(tile.transform.position.x + dir * -1, tile.transform.position.y, tile.transform.position.z);
+                tile.transform.position = new Vector3(tile.transform.position.x - dirX, tile.transform.position.y + dirY, tile.transform.position.z);
             }
         }
         if(direction == 1)
         {
             foreach (WindowTile tile in windowTiles)
             {
-                tile.transform.position = new Vector3(tile.transform.position.x + dir * 1, tile.transform.position.y, tile.transform.position.z);
+                tile.transform.position = new Vector3(tile.transform.position.x + dirX-5*0.67f, tile.transform.position.y + dirY, tile.transform.position.z);
             }
         }
     }
