@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,6 +12,8 @@ public class Window : MonoBehaviour {
     private WindowTile baseTile;
     public List<WindowTile> windowTiles;
 
+    private string[] windowNames = { "aurora_sagradis", "bellesguard", "broken_tiles", "chromatic", "industria", "fractal_drops" };
+
     private static int TILES_NUMBER = 11;
 
     private void Awake()
@@ -21,18 +24,17 @@ public class Window : MonoBehaviour {
 
     public void createWindow()
     {
-
+        int index = UnityEngine.Random.Range(0, windowNames.Length);
+        string window = windowNames[index];
         for (int i = 0; i < 20; i++)
         {
-            int index = Random.Range(0, TILES_NUMBER);
             WindowTile clone = Instantiate(baseTile) as WindowTile;
-            clone.tag = "CloneTile";
-            clone.setFront(index);
+            clone.setFront(window,i);
             windowTiles.Add(clone);
         }
-        difficulty = Random.Range(0, 6);
+        difficulty = UnityEngine.Random.Range(0, 6);
+        windowName = window;
     }
-
 
     public List<WindowTile> getWindowTiles()
     {
@@ -79,21 +81,39 @@ public class Window : MonoBehaviour {
     // [0] - left [1] - right
     public void moveWindow(int direction)
     {
-        float dirX = 5.0f;
-        float dirY = 1.0f;
+        float dirX = 5.69f;
+        float dirY = 1.69f;
+        float tileSize = 0.69f;
+        int numOfCols = 5;
+        int counter = 0;
         if (direction == 0)
         {
 
             foreach(WindowTile tile in windowTiles)
             {
+                dirX -= tileSize;
+                if(counter % numOfCols == 0)
+                {
+                    dirY -= tileSize;
+                    dirX = 5.0f;
+                }
+                counter++;
                 tile.transform.position = new Vector3(tile.transform.position.x - dirX, tile.transform.position.y + dirY, tile.transform.position.z);
             }
         }
         if(direction == 1)
         {
+            dirX = 5.0f;
             foreach (WindowTile tile in windowTiles)
             {
-                tile.transform.position = new Vector3(tile.transform.position.x + dirX-5*0.67f, tile.transform.position.y + dirY, tile.transform.position.z);
+                dirX += tileSize;
+                if (counter % numOfCols == 0)
+                {
+                    dirY -= tileSize;
+                    dirX = 5.0f;
+                }
+                counter++;
+                tile.transform.position = new Vector3(tile.transform.position.x + dirX-numOfCols*tileSize, tile.transform.position.y + dirY, tile.transform.position.z);
             }
         }
     }
