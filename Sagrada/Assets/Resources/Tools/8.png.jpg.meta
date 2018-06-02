@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 1804d17c1920ae549b1c1c88e5a65b99
-timeCreated: 1522095138
+guid: dcb611e28fe9edf49b6b6f369f1ac7d9
+timeCreated: 1527810606
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
@@ -69,38 +69,8 @@ TextureImporter:
   spriteSheet:
     serializedVersion: 2
     sprites: []
-    outline:
-    - - {x: 143.5, y: -150.5}
-      - {x: 148.5, y: -146.5}
-      - {x: 148.5, y: -145.5}
-      - {x: 151.5, y: -142.5}
-      - {x: 152.5, y: -138.5}
-      - {x: 152.5, y: 138.5}
-      - {x: 151.5, y: 142.5}
-      - {x: 144.5, y: 150.5}
-      - {x: 139.5, y: 152.5}
-      - {x: -138.5, y: 152.5}
-      - {x: -142.5, y: 151.5}
-      - {x: -146.5, y: 148.5}
-      - {x: -148.5, y: 147.5}
-      - {x: -148.5, y: 145.5}
-      - {x: -151.5, y: 142.5}
-      - {x: -152.5, y: 138.5}
-      - {x: -152.5, y: -138.5}
-      - {x: -151.5, y: -142.5}
-      - {x: -146.5, y: -148.5}
-      - {x: -145.5, y: -148.5}
-      - {x: -142.5, y: -151.5}
-      - {x: -138.5, y: -152.5}
-      - {x: 140.5, y: -152.5}
-      - {x: 142.5, y: -150.5}
-    physicsShape:
-    - - {x: -145.5, y: 152.5}
-      - {x: -152.5, y: 142.5}
-      - {x: -152.5, y: -152.5}
-      - {x: 152.5, y: -152.5}
-      - {x: 152.5, y: 143.5}
-      - {x: 143.5, y: 152.5}
+    outline: []
+    physicsShape: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

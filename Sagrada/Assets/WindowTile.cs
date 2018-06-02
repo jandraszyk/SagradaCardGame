@@ -61,10 +61,41 @@ public class WindowTile : MonoBehaviour {
         return this.windowModel;
     }
 
-    public void setFront(int index)
+    public void setFront(string windowName, int index)
     {
-        spriteRenderer.sprite = windowModel.getWindow(index);
-        tileValue = spriteRenderer.sprite.name;
+        switch (windowName)
+        {
+            case "aurora_sagradis":
+                spriteRenderer.sprite = windowModel.getWindowAurora(index);
+                tileValue = spriteRenderer.sprite.name;
+                break;
+            case "bellesguard":
+                spriteRenderer.sprite = windowModel.getWindowBellesguard(index);
+                tileValue = spriteRenderer.sprite.name;
+                break;
+            case "broken_tiles":
+                spriteRenderer.sprite = windowModel.getWindowBroken(index);
+                tileValue = spriteRenderer.sprite.name;
+                break;
+            case "chromatic":
+                spriteRenderer.sprite = windowModel.getWindowChromatic(index);
+                tileValue = spriteRenderer.sprite.name;
+                break;
+            case "fractal_drops":
+                spriteRenderer.sprite = windowModel.getWindowFractal(index);
+                tileValue = spriteRenderer.sprite.name;
+                break;
+            case "inudstria":
+                spriteRenderer.sprite = windowModel.getWindowIndustria(index);
+                tileValue = spriteRenderer.sprite.name;
+                break;
+            default:
+                spriteRenderer.sprite = windowModel.getWindowChromatic(index);
+                tileValue = spriteRenderer.sprite.name;
+                break;
+        }
+        //spriteRenderer.sprite = windowModel.getWindow(index);
+        //tileValue = spriteRenderer.sprite.name;
     }
 
     public void moveTiles()
