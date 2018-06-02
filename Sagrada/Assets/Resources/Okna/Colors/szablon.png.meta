@@ -9,12 +9,12 @@ TextureImporter:
     21300004: red
     21300006: green
     21300008: purple
-    21300010: four
-    21300012: three
-    21300014: six
-    21300016: one
-    21300018: two
-    21300020: five
+    21300010: 4
+    21300012: 3
+    21300014: 6
+    21300016: 1
+    21300018: 2
+    21300020: 5
     21300022: white
   externalObjects: {}
   serializedVersion: 4
@@ -182,7 +182,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: four
+      name: 4
       rect:
         serializedVersion: 2
         x: 525
@@ -196,7 +196,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: three
+      name: 3
       rect:
         serializedVersion: 2
         x: 610
@@ -210,7 +210,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: six
+      name: 6
       rect:
         serializedVersion: 2
         x: 699
@@ -224,7 +224,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: one
+      name: 1
       rect:
         serializedVersion: 2
         x: 525
@@ -238,7 +238,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: two
+      name: 2
       rect:
         serializedVersion: 2
         x: 612
@@ -252,7 +252,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: five
+      name: 5
       rect:
         serializedVersion: 2
         x: 700

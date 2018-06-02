@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -18,6 +19,7 @@ public class Game : MonoBehaviour {
     private WindowTile selectedTile;
     private Dice dice;
     private List<Dice> draftedDices = new List<Dice>();
+    private Dice selectedDice;
 
     private GameObject titleObject;
     private Text title;
@@ -71,18 +73,47 @@ public class Game : MonoBehaviour {
 
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePosition.z = 0.1f;
+
         if(Input.GetMouseButtonDown(0))
         {
-            foreach(WindowTile tile in windowLeft.getWindowTiles())
+           
+            foreach(Dice d in draftedDices)
             {
-                if(tile.getBounds().Contains(mousePosition))
+                if(d.getBounds().Contains(mousePosition))
+                {
+                    selectedDice = d;
+                    Debug.Log("Selected dice value: " + selectedDice.getDiceValue() + " and color: " + selectedDice.getDiceColorName());
+                }
+            }
+
+            foreach (WindowTile tile in windowLeft.getWindowTiles())
+            {
+                if (tile.getBounds().Contains(mousePosition))
                 {
                     selectedTile = tile;
                     Debug.Log("Selected tile value: " + selectedTile.getTileValue());
-                }
+                    if(selectedTile.getTileValue() == selectedDice.getDiceColorName() || selectedTile.getTileValue() == selectedDice.getDiceValue() || selectedTile.getTileValue() == "white")
+                    {
+                        Debug.Log("You can put that dice in here");
+                        selectedDice.tag = "placed";
+                        moveDice();
+                    }
+                    else
+                    {
+                        Debug.Log("Try somewhere else");
+                    }
+                } 
             }
+
         }
 	}
+
+    private void moveDice()
+    {
+        selectedDice.transform.position = selectedTile.transform.position;
+        selectedTile.transform.position = new Vector3(-10.0f, -10.0f, 0.0f);
+        
+    }
 
     public void draftDice()
     {
