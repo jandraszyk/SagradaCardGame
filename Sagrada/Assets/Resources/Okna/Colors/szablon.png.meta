@@ -4,18 +4,18 @@ timeCreated: 1521998717
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: yellow
-    21300002: blue
-    21300004: red
-    21300006: green
-    21300008: purple
-    21300010: four
-    21300012: three
-    21300014: six
-    21300016: one
-    21300018: two
-    21300020: five
-    21300022: white
+    21300000: szablon_0
+    21300002: szablon_1
+    21300004: szablon_2
+    21300006: szablon_3
+    21300008: szablon_4
+    21300010: szablon_5
+    21300012: szablon_6
+    21300014: szablon_7
+    21300016: szablon_8
+    21300018: szablon_9
+    21300020: szablon_10
+    21300022: szablon_11
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -112,7 +112,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: yellow
+      name: szablon_0
       rect:
         serializedVersion: 2
         x: 15
@@ -126,7 +126,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: blue
+      name: szablon_1
       rect:
         serializedVersion: 2
         x: 91
@@ -140,7 +140,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: red
+      name: szablon_2
       rect:
         serializedVersion: 2
         x: 164
@@ -154,7 +154,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: green
+      name: szablon_3
       rect:
         serializedVersion: 2
         x: 90
@@ -168,7 +168,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: purple
+      name: szablon_4
       rect:
         serializedVersion: 2
         x: 90
@@ -182,7 +182,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: four
+      name: szablon_5
       rect:
         serializedVersion: 2
         x: 525
@@ -196,7 +196,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: three
+      name: szablon_6
       rect:
         serializedVersion: 2
         x: 610
@@ -210,7 +210,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: six
+      name: szablon_7
       rect:
         serializedVersion: 2
         x: 699
@@ -224,7 +224,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: one
+      name: szablon_8
       rect:
         serializedVersion: 2
         x: 525
@@ -238,7 +238,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: two
+      name: szablon_9
       rect:
         serializedVersion: 2
         x: 612
@@ -252,7 +252,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: five
+      name: szablon_10
       rect:
         serializedVersion: 2
         x: 700
@@ -266,7 +266,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: white
+      name: szablon_11
       rect:
         serializedVersion: 2
         x: 165

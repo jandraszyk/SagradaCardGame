@@ -38,7 +38,7 @@ public class PopulateWindow : MonoBehaviour {
             //allTiles[i] = newTile;
         }
 
-        //mWindow.createWindow();
+        mWindow.createWindow();
         foreach(WindowTile tile in mWindow.getWindowTiles())
         {
             tile.transform.position = new Vector3(tile.transform.position.x, -5.35f, tile.transform.position.z);
