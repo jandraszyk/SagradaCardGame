@@ -7,6 +7,7 @@ public class Dice : MonoBehaviour {
     public string diceValue;
     public string diceColorName;
     private bool selected;
+    public int placedId;
 
     private SpriteRenderer spriteRenderer;
     private BoxCollider2D diceCollider;

@@ -6,6 +6,9 @@ TagManager:
   tags:
   - clone
   - placed
+  - TileOccupied
+  - TileCloneLeft
+  - TileCloneRight
   layers:
   - Default
   - TransparentFX

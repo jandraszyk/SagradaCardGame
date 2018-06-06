@@ -5,7 +5,22 @@ using UnityEngine;
 public class WindowTile : MonoBehaviour {
 
     public string tileValue;
+    public int id;
+    public int tilesPerRow;
     private bool active = false;
+
+    //Neighbour tiles
+    public WindowTile tileUp;
+    public WindowTile tileDown;
+    public WindowTile tileRight;
+    public WindowTile tileLeft;
+    public WindowTile tileUpRight;
+    public WindowTile tileUpLeft;
+    public WindowTile tileDownRight;
+    public WindowTile tileDownLeft;
+
+    public List<WindowTile> adjacentList;
+
 
     private SpriteRenderer spriteRenderer;
     private BoxCollider2D tileCollider;
@@ -46,6 +61,11 @@ public class WindowTile : MonoBehaviour {
         return active;
     }
 
+    public int getId()
+    {
+        return this.id;
+    }
+
     public void setActive(bool active)
     {
         this.active = active;
@@ -59,6 +79,11 @@ public class WindowTile : MonoBehaviour {
     public WindowModel getWindowModel()
     {
         return this.windowModel;
+    }
+
+    public List<WindowTile> getAdjacentTiles()
+    {
+        return adjacentList;
     }
 
     public void setFront(string windowName, int index)
@@ -94,13 +119,6 @@ public class WindowTile : MonoBehaviour {
                 tileValue = spriteRenderer.sprite.name;
                 break;
         }
-        //spriteRenderer.sprite = windowModel.getWindow(index);
-        //tileValue = spriteRenderer.sprite.name;
-    }
-
-    public void moveTiles()
-    {
-
     }
 
 }
