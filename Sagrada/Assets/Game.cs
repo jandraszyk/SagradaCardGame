@@ -45,6 +45,7 @@ public class Game : MonoBehaviour {
     private Tool tool;
     private Tool createdTool;
     private int currentToolShowing = 1;
+
     //------Buttons------------//
     private GameObject leftWindowButton;
     private GameObject rightWindowButton;
@@ -203,39 +204,57 @@ public class Game : MonoBehaviour {
 
     private bool canBePlaced(Dice dice, int id)
     {
+        bool canPlace = false;
         if(placedDices.Count != 0)
         {
+            Debug.Log("Selected dice: color & value: " + dice.getDiceColorName() + "," + dice.getDiceValue());
+
             foreach (Dice d in placedDices)
             {
-                if (d.placedId == id + 1 || d.placedId == id - 1
+                Debug.Log("Placed dice: color & value: " + d.getDiceColorName() + "," + d.getDiceValue());
+
+                if ((d.placedId == id + 1 && id % 5 !=4)  || (d.placedId == id - 1 && id % 5 != 0)
                     || d.placedId == id - 5 || d.placedId == id + 5
-                    || d.placedId == id - 6 || d.placedId == id - 4
-                    || d.placedId == id + 4 || d.placedId == id + 6)
+                    //|| d.placedId == id - 6 || d.placedId == id - 4
+                    //|| d.placedId == id + 4 || d.placedId == id + 6
+                    )
                 {
-                    if (d.placedId == id + 1 && (d.getDiceValue() == dice.getDiceValue() || d.getDiceColorName() == dice.getDiceColorName()))
+                    if ((d.placedId == id + 1) && (d.getDiceValue() == dice.getDiceValue() || d.getDiceColorName() == dice.getDiceColorName()))
                     {
-                        return false;
+                        canPlace = false;
+                        //return false;
                     }
                     else if ((d.placedId == id - 1) && (d.getDiceValue() == dice.getDiceValue() || d.getDiceColorName() == dice.getDiceColorName()))
                     {
+                        canPlace = false;
+
                         return false;
                     }
                     else if ((d.placedId == id - 5) && (d.getDiceValue() == dice.getDiceValue() || d.getDiceColorName() == dice.getDiceColorName()))
                     {
+                        canPlace = false;
+
                         return false;
                     }
                     else if ((d.placedId == id + 5) && (d.getDiceValue() == dice.getDiceValue() || d.getDiceColorName() == dice.getDiceColorName()))
                     {
+                        canPlace = false;
+
                         return false;
                     }
                     else
                     {
-                        return true;
+                        canPlace = true;
                     }
+                }
+                if ((d.placedId == id - 6) && id % 5 != 0 || (d.placedId == id - 4 && id % 5 != 4)
+                    || (d.placedId == id + 4 && id % 5 != 0) || (d.placedId == id + 6 && id % 5 != 4))
+                {
+                    canPlace = true;
                 }
 
             }
-            return false;
+            return canPlace;
         }
         return true;
         
@@ -264,15 +283,7 @@ public class Game : MonoBehaviour {
         totalScoreTxt.text = getTotalScore().ToString();
         moveToRoundTrack();
         draftedDices.Clear();
-        /*var clones = GameObject.FindGameObjectsWithTag("clone");
-        foreach(var clone in clones)
-        {
-            Destroy(clone);
-        }*/
-        foreach(Dice placed in placedDices)
-        {
-            Debug.Log("Placed dice value: " + placed.getDiceValue() + ", color: " + placed.getDiceColorName() + " on place: " + placed.placedId);
-        }
+
         for (int i = 0; i < 4; i++) 
         {
             int index = UnityEngine.Random.Range(0,6);
@@ -424,7 +435,6 @@ public class Game : MonoBehaviour {
             int index = UnityEngine.Random.Range(0, 12);
             Tool generated = new Tool();
             generated.setFront(index);
-            generatedTools.Add(generated);
         }
     }
 
