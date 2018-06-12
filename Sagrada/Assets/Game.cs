@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class Game : MonoBehaviour {
 
+    //-------Windows & Dice------------//
     private GameObject windowLeftObject;
     private GameObject windowRightObject;
     private GameObject tableObject;
@@ -24,6 +25,7 @@ public class Game : MonoBehaviour {
     private List<Dice> draftedDices = new List<Dice>();
     public List<Dice> placedDices = new List<Dice>();
     public List<Dice> discardedDices = new List<Dice>();
+    public List<Tool> generatedTools = new List<Tool>();
 
     //----------Text Objects----------//
     private GameObject titleObject;
@@ -34,16 +36,21 @@ public class Game : MonoBehaviour {
     private GameObject totalScoreObject;
     private Text totalScoreTxt;
 
-
+    //---------Player Object-----------//
     private GameObject playerObject;
     private Player player;
 
+    //-------Tool Objects-----------//
+    private GameObject toolObject;
+    private Tool tool;
+    private Tool createdTool;
+    private int currentToolShowing = 1;
     //------Buttons------------//
     private GameObject leftWindowButton;
     private GameObject rightWindowButton;
     private GameObject draftDiceButton;
-
-
+    private GameObject showToolsButton;
+    private GameObject toolBackground;
 
     private int numOfTours = 0;
     private int totalScore = 0;
@@ -75,7 +82,9 @@ public class Game : MonoBehaviour {
         totalScoreTextObject = GameObject.Find("TotalScoreText");
         totalScoreObject = GameObject.Find("TotalScore");
         totalScoreTxt = totalScoreObject.GetComponent<Text>();
-        
+
+        toolObject = GameObject.Find("Tool");
+        tool = toolObject.GetComponent<Tool>();
 
         roundTrackObject = GameObject.Find("RoundTrack");
         roundTrack = roundTrackObject.GetComponent<Text>();
@@ -83,12 +92,16 @@ public class Game : MonoBehaviour {
         leftWindowButton = GameObject.Find("ButtonLeft");
         rightWindowButton = GameObject.Find("ButtonRight");
         draftDiceButton = GameObject.Find("ButtonDraft");
+        showToolsButton = GameObject.Find("ButtonTools");
+        toolBackground = GameObject.Find("ToolBackground");
+
 
     }
 
     // Use this for initialization
     void Start () {
         draftDiceButton.SetActive(false);
+        showToolsButton.SetActive(false);
         roundTrackObject.SetActive(false);
         totalScoreTextObject.SetActive(false);
         totalScoreObject.SetActive(false);
@@ -140,16 +153,24 @@ public class Game : MonoBehaviour {
                         {
                             selectedTile = tile;
                         }
+                        
                         //Debug.Log("Selected tile value: " + selectedTile.getTileValue());
                         if (selectedTile.getTileValue() == selectedDice.getDiceColorName() || selectedTile.getTileValue() == selectedDice.getDiceValue() || selectedTile.getTileValue() == "white")
                         {
-                            Debug.Log("You can put that dice in here");
-                            selectedDice.tag = "placed";
-                            selectedDice.placedId = selectedTile.getId();
-                            //Dice placed = selectedDice;
-                            draftedDices.Remove(selectedDice);
-                            placedDices.Add(selectedDice);
-                            moveDice();
+                            if(canBePlaced(selectedDice, selectedTile.getId()))
+                            {
+                                Debug.Log("You can put that dice in here");
+                                selectedDice.tag = "placed";
+                                selectedDice.placedId = selectedTile.getId();
+                                //Dice placed = selectedDice;
+                                draftedDices.Remove(selectedDice);
+                                placedDices.Add(selectedDice);
+                                moveDice();
+                            } else
+                            {
+                                Debug.Log("Can't place dice next to the dice with same value and/or color");
+                            }
+                            
                         }
                         else
                         {
@@ -178,6 +199,46 @@ public class Game : MonoBehaviour {
         {
             return false;
         }
+    }
+
+    private bool canBePlaced(Dice dice, int id)
+    {
+        if(placedDices.Count != 0)
+        {
+            foreach (Dice d in placedDices)
+            {
+                if (d.placedId == id + 1 || d.placedId == id - 1
+                    || d.placedId == id - 5 || d.placedId == id + 5
+                    || d.placedId == id - 6 || d.placedId == id - 4
+                    || d.placedId == id + 4 || d.placedId == id + 6)
+                {
+                    if (d.placedId == id + 1 && (d.getDiceValue() == dice.getDiceValue() || d.getDiceColorName() == dice.getDiceColorName()))
+                    {
+                        return false;
+                    }
+                    else if ((d.placedId == id - 1) && (d.getDiceValue() == dice.getDiceValue() || d.getDiceColorName() == dice.getDiceColorName()))
+                    {
+                        return false;
+                    }
+                    else if ((d.placedId == id - 5) && (d.getDiceValue() == dice.getDiceValue() || d.getDiceColorName() == dice.getDiceColorName()))
+                    {
+                        return false;
+                    }
+                    else if ((d.placedId == id + 5) && (d.getDiceValue() == dice.getDiceValue() || d.getDiceColorName() == dice.getDiceColorName()))
+                    {
+                        return false;
+                    }
+                    else
+                    {
+                        return true;
+                    }
+                }
+
+            }
+            return false;
+        }
+        return true;
+        
     }
 
     private void moveDice()
@@ -263,6 +324,10 @@ public class Game : MonoBehaviour {
             rightWindowButton.SetActive(false);
             leftWindowButton.SetActive(false);
             draftDiceButton.SetActive(true);
+            showToolsButton.SetActive(true);
+            //generateToolCards();
+
+
             titleObject.SetActive(false);
             playerWindow.centerWindow();
             roundTrackObject.SetActive(true);
@@ -280,11 +345,16 @@ public class Game : MonoBehaviour {
             leftWindowButton.SetActive(false);
             rightWindowButton.SetActive(false);
             draftDiceButton.SetActive(true);
+            showToolsButton.SetActive(true);
+
             titleObject.SetActive(false);
             playerWindow.centerWindow();
             roundTrackObject.SetActive(true);
             totalScoreTextObject.SetActive(true);
             totalScoreObject.SetActive(true);
+            //generateToolCards();
+
+
 
 
         }
@@ -300,5 +370,62 @@ public class Game : MonoBehaviour {
         return totalScore;
     }
 
+    public void showToolCard()
+    {
+            int index = UnityEngine.Random.Range(0, 12);
+            toolBackground.transform.position = new Vector3(0, 0, -1);
+            createdTool = Instantiate(tool) as Tool;
+            createdTool.setFront(index);
+            createdTool.tag = "Tool";
+            Debug.Log("Generated tool color value: " + createdTool.getcolorValue());
+    }
+
+    public void closeToolCard()
+    {
+        var clones = GameObject.FindGameObjectsWithTag("Tool");
+        foreach (var clone in clones)
+        {
+            Destroy(clone);
+        }
+        var usedObjects = GameObject.FindGameObjectsWithTag("Used");
+        foreach (var used in usedObjects)
+        {
+            Destroy(used);
+        }
+        toolBackground.transform.position = new Vector3(0, -600, -1);
+    }
+
+    public void buyToolCard()
+    {
+        if (selectedDice == null)
+        {
+            Debug.Log("You didnt select any dice");
+            return;
+        } else
+        {
+            if(selectedDice.getDiceColorName() == createdTool.getcolorValue())
+            {
+                selectedDice.tag = "Used";
+                draftedDices.Remove(selectedDice);
+                createdTool.tag = "Used";
+            } else
+            {
+                Debug.Log("Dice color doesn't match the required tool color value");
+            }
+        }
+    }
+
+    public void generateToolCards()
+    {
+        int difficultyLevel = ChangeDifficulty.currentDifficulty;
+
+        for (int i = 0; i < difficultyLevel; i++)
+        {
+            int index = UnityEngine.Random.Range(0, 12);
+            Tool generated = new Tool();
+            generated.setFront(index);
+            generatedTools.Add(generated);
+        }
+    }
 
 }

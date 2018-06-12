@@ -27,6 +27,7 @@ public class ChangeDifficulty : MonoBehaviour {
                 currentDifficulty++;
                 lvlDifficulty.text = currentDifficulty.ToString();
             }
+            
         }
     }
 }

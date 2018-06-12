@@ -9,6 +9,8 @@ TagManager:
   - TileOccupied
   - TileCloneLeft
   - TileCloneRight
+  - Tool
+  - Used
   layers:
   - Default
   - TransparentFX
