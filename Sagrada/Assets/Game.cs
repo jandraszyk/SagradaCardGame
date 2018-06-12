@@ -43,8 +43,8 @@ public class Game : MonoBehaviour {
     //-------Tool Objects-----------//
     private GameObject toolObject;
     private Tool tool;
-    private Tool createdTool;
-    private int currentToolShowing = 1;
+    private Tool showingTool;
+    private int currentToolShowing = 0;
 
     //------Buttons------------//
     private GameObject leftWindowButton;
@@ -336,7 +336,7 @@ public class Game : MonoBehaviour {
             leftWindowButton.SetActive(false);
             draftDiceButton.SetActive(true);
             showToolsButton.SetActive(true);
-            //generateToolCards();
+            generateToolCards();
 
 
             titleObject.SetActive(false);
@@ -363,10 +363,7 @@ public class Game : MonoBehaviour {
             roundTrackObject.SetActive(true);
             totalScoreTextObject.SetActive(true);
             totalScoreObject.SetActive(true);
-            //generateToolCards();
-
-
-
+            generateToolCards();
 
         }
     }
@@ -381,22 +378,47 @@ public class Game : MonoBehaviour {
         return totalScore;
     }
 
-    public void showToolCard()
+    public void showToolCard(string arrow)
     {
-            int index = UnityEngine.Random.Range(0, 12);
-            toolBackground.transform.position = new Vector3(0, 0, -1);
-            createdTool = Instantiate(tool) as Tool;
-            createdTool.setFront(index);
-            createdTool.tag = "Tool";
-            Debug.Log("Generated tool color value: " + createdTool.getcolorValue());
+        toolBackground.transform.position = new Vector3(0, 0, -1);
+        if(arrow.Equals("left"))
+        {
+            if(currentToolShowing > 0)
+            {
+                currentToolShowing--;
+            }
+        }
+        else if(arrow.Equals("right"))
+        {
+            if(currentToolShowing < generatedTools.Count - 1)
+            {
+                currentToolShowing++;
+            }
+        }
+
+        for (int i = 0; i < generatedTools.Count; i++) 
+        {
+            if(currentToolShowing == i)
+            {
+                generatedTools[i].transform.position = new Vector3(0, 0, -1);
+                generatedTools[i].isShowing = true;
+                showingTool = generatedTools[i];
+            } else
+            {
+                generatedTools[i].transform.position = new Vector3(-20, 0, -1);
+                generatedTools[i].isShowing = false;
+            }
+        }
+        
+            
     }
 
     public void closeToolCard()
     {
-        var clones = GameObject.FindGameObjectsWithTag("Tool");
-        foreach (var clone in clones)
+        foreach (Tool clone in generatedTools)
         {
-            Destroy(clone);
+            clone.transform.position = new Vector3(-20, 0, -1);
+            clone.isShowing = false;
         }
         var usedObjects = GameObject.FindGameObjectsWithTag("Used");
         foreach (var used in usedObjects)
@@ -414,12 +436,14 @@ public class Game : MonoBehaviour {
             return;
         } else
         {
-            if(selectedDice.getDiceColorName() == createdTool.getcolorValue())
+            if (selectedDice.getDiceColorName() == showingTool.getcolorValue())
             {
                 selectedDice.tag = "Used";
                 draftedDices.Remove(selectedDice);
-                createdTool.tag = "Used";
-            } else
+                showingTool.tag = "Used";
+                generatedTools.Remove(showingTool);
+            }
+            else
             {
                 Debug.Log("Dice color doesn't match the required tool color value");
             }
@@ -433,8 +457,11 @@ public class Game : MonoBehaviour {
         for (int i = 0; i < difficultyLevel; i++)
         {
             int index = UnityEngine.Random.Range(0, 12);
-            Tool generated = new Tool();
-            generated.setFront(index);
+            Tool createdTool = Instantiate(tool) as Tool;
+            createdTool.setFront(index);
+            createdTool.tag = "Tool";
+            Debug.Log("Generated tool color value: " + createdTool.getcolorValue());
+            generatedTools.Add(createdTool);
         }
     }
 

@@ -6,6 +6,7 @@ public class Tool : MonoBehaviour {
 
     private string toolColorValue;
     private bool wasBought = false;
+    public bool isShowing = false;
 
     private SpriteRenderer spriteRenderer;
     private BoxCollider2D toolCollider;
