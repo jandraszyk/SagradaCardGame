@@ -864,14 +864,55 @@ public class Game : MonoBehaviour {
     private int public2()
     {
 
-        int score = 0;
-        /* foreach (Dice dice in placedDices)
-         {
-             if (dice.placedId
-             {
-                 score++;
-             }
-         }*/
+        HashSet<string> col1 = new HashSet<string>();
+        HashSet<string> col2 = new HashSet<string>();
+        HashSet<string> col3 = new HashSet<string>();
+        HashSet<string> col4 = new HashSet<string>();
+        HashSet<string> col5 = new HashSet<string>();
+        foreach (Dice dice in placedDices)
+        {
+            if (dice.placedId == 0 || dice.placedId == 5 || dice.placedId == 10 || dice.placedId == 15)
+            {
+                col1.Add(dice.diceColorName);
+            }
+            if (dice.placedId == 1 || dice.placedId == 6 || dice.placedId == 11 || dice.placedId == 16)
+            {
+                col2.Add(dice.diceColorName);
+            }
+            if (dice.placedId == 2 || dice.placedId == 7 || dice.placedId == 12 || dice.placedId == 17)
+            {
+                col3.Add(dice.diceColorName);
+            }
+            if (dice.placedId == 3 || dice.placedId == 8 || dice.placedId == 13 || dice.placedId == 18)
+            {
+                col4.Add(dice.diceColorName);
+            }
+            if (dice.placedId == 4 || dice.placedId == 9 || dice.placedId == 14 || dice.placedId == 19)
+            {
+                col5.Add(dice.diceColorName);
+            }
+        }
+        int playerScore = 0;
+        if (col1.Count == 4)
+        {
+            playerScore += 5;
+        }
+        if (col2.Count == 4)
+        {
+            playerScore += 5;
+        }
+        if (col3.Count == 4)
+        {
+            playerScore += 5;
+        }
+        if (col4.Count == 4)
+        {
+            playerScore += 5;
+        }
+        if (col5.Count == 4)
+        {
+            playerScore += 5;
+        }
         return playerScore;
     }
     private int public3()
