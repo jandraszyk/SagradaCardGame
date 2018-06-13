@@ -687,8 +687,14 @@ public class Game : MonoBehaviour {
     }
     private void showPlayerScore()
     {
-        playerScore = privateObjectiveScore() + publicObjectiveScore();
+        playerScore = privateObjectiveScore() + publicObjectiveScore() - penaltyPoints();
         textPlayerScore.text = playerScore.ToString();
+    }
+
+    private int penaltyPoints()
+    {
+        Debug.Log("Rozmiar planszy: " + placedDices.Count);
+        return 20 - placedDices.Count;
     }
 
     private int privateObjectiveScore()
