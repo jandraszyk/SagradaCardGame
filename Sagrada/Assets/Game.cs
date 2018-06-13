@@ -948,28 +948,102 @@ public class Game : MonoBehaviour {
     }
     private int public5()
     {
-        int score = 0;
-        /* foreach (Dice dice in placedDices)
-         {
-             if (dice.placedId
-             {
-                 score++;
-             }
-         }*/
+
+        HashSet<int> row1 = new HashSet<int>();
+        HashSet<int> row2 = new HashSet<int>();
+        HashSet<int> row3 = new HashSet<int>();
+        HashSet<int> row4 = new HashSet<int>();
+        foreach (Dice dice in placedDices)
+        {
+            if (dice.placedId >= 0 && dice.placedId < 5)
+            {
+                row1.Add(dice.placedId);
+            }
+            if (dice.placedId >= 5 && dice.placedId < 10)
+            {
+                row2.Add(dice.placedId);
+            }
+            if (dice.placedId >= 10 && dice.placedId < 15)
+            {
+                row3.Add(dice.placedId);
+            }
+            if (dice.placedId >= 15 && dice.placedId < 20)
+            {
+                row4.Add(dice.placedId);
+            }
+        }
+        int playerScore = 0;
+        if (row1.Count == 5)
+        {
+            playerScore += 5;
+        }
+        if (row2.Count == 5)
+        {
+            playerScore += 5;
+        }
+        if (row3.Count == 5)
+        {
+            playerScore += 5;
+        }
+        if (row4.Count == 5)
+        {
+            playerScore += 5;
+        }
         return playerScore;
 
     }
     private int public6()
     {
 
-        int score = 0;
-        /* foreach (Dice dice in placedDices)
-         {
-             if (dice.placedId
-             {
-                 score++;
-             }
-         }*/
+        HashSet<int> col1 = new HashSet<int>();
+        HashSet<int> col2 = new HashSet<int>();
+        HashSet<int> col3 = new HashSet<int>();
+        HashSet<int> col4 = new HashSet<int>();
+        HashSet<int> col5 = new HashSet<int>();
+        foreach (Dice dice in placedDices)
+        {
+            if (dice.placedId == 0 || dice.placedId == 5 || dice.placedId == 10 || dice.placedId == 15)
+            {
+                col1.Add(dice.placedId);
+            }
+            if (dice.placedId == 1 || dice.placedId == 6 || dice.placedId == 11 || dice.placedId == 16)
+            {
+                col2.Add(dice.placedId);
+            }
+            if (dice.placedId == 2 || dice.placedId == 7 || dice.placedId == 12 || dice.placedId == 17)
+            {
+                col3.Add(dice.placedId);
+            }
+            if (dice.placedId == 3 || dice.placedId == 8 || dice.placedId == 13 || dice.placedId == 18)
+            {
+                col4.Add(dice.placedId);
+            }
+            if (dice.placedId == 4 || dice.placedId == 9 || dice.placedId == 14 || dice.placedId == 19)
+            {
+                col5.Add(dice.placedId);
+            }
+        }
+        int playerScore = 0;
+        if (col1.Count == 4)
+        {
+            playerScore += 4;
+        }
+        if (col2.Count == 4)
+        {
+            playerScore += 4;
+        }
+        if (col3.Count == 4)
+        {
+            playerScore += 4;
+        }
+        if (col4.Count == 4)
+        {
+            playerScore += 4;
+        }
+        if (col5.Count == 4)
+        {
+            playerScore += 4;
+        }
         return playerScore;
     }
     private int public7()
