@@ -935,16 +935,33 @@ public class Game : MonoBehaviour {
     }
     private int public4()
     {
-
-        int score = 0;
-        /* foreach (Dice dice in placedDices)
-         {
-             if (dice.placedId
-             {
-                 score++;
-             }
-         }*/
-        return playerScore;
+        int[] setOfColors = { 0, 0, 0, 0, 0 };
+        foreach (Dice dice in placedDices)
+        {
+            string color = dice.getDiceColorName();
+            switch (color)
+            {
+                case "red":
+                    setOfColors[0]++;
+                    break;
+                case "blue":
+                    setOfColors[1]++;
+                    break;
+                case "purple":
+                    setOfColors[2]++;
+                    break;
+                case "yellow":
+                    setOfColors[3]++;
+                    break;
+                case "green":
+                    setOfColors[4]++;
+                    break;
+                default:
+                    break;
+            }
+        }
+        
+        return setOfColors.Min();
     }
     private int public5()
     {
