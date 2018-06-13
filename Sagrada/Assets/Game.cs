@@ -694,7 +694,7 @@ public class Game : MonoBehaviour {
     private int penaltyPoints()
     {
         Debug.Log("Rozmiar planszy: " + placedDices.Count);
-        return 20 - placedDices.Count;
+        return (20 - placedDices.Count)*3;
     }
 
     private int privateObjectiveScore()
@@ -741,7 +741,7 @@ public class Game : MonoBehaviour {
         foreach (Dice dice in placedDices){
             if (dice.getDiceColorName().Equals("red"))
             {
-                score++;
+                score += Int32.Parse(dice.getDiceValue());
             }
         }
         return score;
@@ -753,7 +753,7 @@ public class Game : MonoBehaviour {
         foreach (Dice dice in placedDices){
             if (dice.getDiceColorName().Equals("green"))
             {
-                score++;
+                score += Int32.Parse(dice.getDiceValue());
             }
         }
         return score;
@@ -765,7 +765,7 @@ public class Game : MonoBehaviour {
         foreach (Dice dice in placedDices){
             if (dice.getDiceColorName().Equals("yellow"))
             {
-                score++;
+                score += Int32.Parse(dice.getDiceValue());
             }
         }
         return score;
@@ -773,6 +773,208 @@ public class Game : MonoBehaviour {
 
     private int publicObjectiveScore()
     {
-        return 0;
+        int score = 0;
+        foreach (PublicObjective publicObjective in generatedPublicObjectives)
+        {
+
+            switch (publicObjective.getMethod())
+            {
+                case 1:
+                    score += public1();
+                    break;
+                case 2:
+                    score += public2();
+                    break;
+                case 3:
+                    score += public3();
+                    break;
+                case 4:
+                    score += public4();
+                    break;
+                case 5:
+                    score += public5();
+                    break;
+                case 6:
+                    score += public6();
+                    break;
+                case 7:
+                    score += public7();
+                    break;
+                case 8:
+                    score += public8();
+                    break;
+                case 9:
+                    score += public9();
+                    break;
+                case 10:
+                    score += public10();
+                    break;
+                default:
+                    break;
+            }
+        }
+        return score;
+    }
+
+    private int public1()
+    {
+
+        HashSet<string> row1 = new HashSet<string>();
+        HashSet<string> row2 = new HashSet<string>();
+        HashSet<string> row3 = new HashSet<string>();
+        HashSet<string> row4 = new HashSet<string>();
+        foreach (Dice dice in placedDices)
+        {
+            if (dice.placedId >= 0 && dice.placedId < 5)
+            {
+                row1.Add(dice.diceColorName);
+            }
+            if (dice.placedId >= 5 && dice.placedId < 10)
+            {
+                row2.Add(dice.diceColorName);
+            }
+            if (dice.placedId >= 10 && dice.placedId < 15)
+            {
+                row3.Add(dice.diceColorName);
+            }
+            if (dice.placedId >= 15 && dice.placedId < 20)
+            {
+                row4.Add(dice.diceColorName);
+            }
+        }
+        int playerScore = 0;
+        if (row1.Count == 5)
+        {
+            playerScore += 6;
+        }
+        if (row2.Count == 5)
+        {
+            playerScore += 6;
+        }
+        if (row3.Count == 5)
+        {
+            playerScore += 6;
+        }
+        if (row4.Count == 5)
+        {
+            playerScore += 6;
+        }
+        return playerScore;
+    }
+    private int public2()
+    {
+
+        int score = 0;
+        /* foreach (Dice dice in placedDices)
+         {
+             if (dice.placedId
+             {
+                 score++;
+             }
+         }*/
+        return playerScore;
+    }
+    private int public3()
+    {
+
+        int score = 0;
+        /* foreach (Dice dice in placedDices)
+         {
+             if (dice.placedId
+             {
+                 score++;
+             }
+         }*/
+        return playerScore;
+    }
+    private int public4()
+    {
+
+        int score = 0;
+        /* foreach (Dice dice in placedDices)
+         {
+             if (dice.placedId
+             {
+                 score++;
+             }
+         }*/
+        return playerScore;
+    }
+    private int public5()
+    {
+        int score = 0;
+        /* foreach (Dice dice in placedDices)
+         {
+             if (dice.placedId
+             {
+                 score++;
+             }
+         }*/
+        return playerScore;
+
+    }
+    private int public6()
+    {
+
+        int score = 0;
+        /* foreach (Dice dice in placedDices)
+         {
+             if (dice.placedId
+             {
+                 score++;
+             }
+         }*/
+        return playerScore;
+    }
+    private int public7()
+    {
+
+        int score = 0;
+        /* foreach (Dice dice in placedDices)
+         {
+             if (dice.placedId
+             {
+                 score++;
+             }
+         }*/
+        return playerScore;
+    }
+    private int public8()
+    {
+
+        int score = 0;
+        /* foreach (Dice dice in placedDices)
+         {
+             if (dice.placedId
+             {
+                 score++;
+             }
+         }*/
+        return playerScore;
+    }
+    private int public9()
+    {
+        int score = 0;
+        /* foreach (Dice dice in placedDices)
+         {
+             if (dice.placedId
+             {
+                 score++;
+             }
+         }*/
+        return playerScore;
+    }
+    private int public10()
+    {
+
+        int score = 0;
+        /* foreach (Dice dice in placedDices)
+         {
+             if (dice.placedId
+             {
+                 score++;
+             }
+         }*/
+        return playerScore;
     }
 }
