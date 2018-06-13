@@ -441,6 +441,9 @@ public class Game : MonoBehaviour {
 
     public void showToolCard(string arrow)
     {
+        showToolsButton.SetActive(false);
+        showPrivateObjectiveButton.SetActive(false);
+        showPublicObjectiveButton.SetActive(false);
         toolBackground.transform.position = new Vector3(0, 0, -1);
         if (arrow.Equals("left"))
         {
@@ -477,6 +480,9 @@ public class Game : MonoBehaviour {
 
     public void showPrivateObjective(string arrow)
     {
+        showToolsButton.SetActive(false);
+        showPrivateObjectiveButton.SetActive(false);
+        showPublicObjectiveButton.SetActive(false);
         privateBackground.transform.position = new Vector3(0, 0, -1);
         if (arrow.Equals("left"))
         {
@@ -513,6 +519,9 @@ public class Game : MonoBehaviour {
 
     public void showPublicObiective(string arrow)
     {
+        showToolsButton.SetActive(false);
+        showPrivateObjectiveButton.SetActive(false);
+        showPublicObjectiveButton.SetActive(false);
         publicBackground.transform.position = new Vector3(0, 0, -1);
         if (arrow.Equals("left"))
         {
@@ -560,6 +569,9 @@ public class Game : MonoBehaviour {
             Destroy(used);
         }
         toolBackground.transform.position = new Vector3(0, -600, -1);
+        showToolsButton.SetActive(true);
+        showPrivateObjectiveButton.SetActive(true);
+        showPublicObjectiveButton.SetActive(true);
     }
 
     public void closePrivateObjective()
@@ -575,6 +587,9 @@ public class Game : MonoBehaviour {
             Destroy(used);
         }
         privateBackground.transform.position = new Vector3(0, -600, -1);
+        showToolsButton.SetActive(true);
+        showPrivateObjectiveButton.SetActive(true);
+        showPublicObjectiveButton.SetActive(true);
     }
 
     public void closePublicObjective()
@@ -590,6 +605,9 @@ public class Game : MonoBehaviour {
             Destroy(used);
         }
         publicBackground.transform.position = new Vector3(0, -600, -1);
+        showToolsButton.SetActive(true);
+        showPrivateObjectiveButton.SetActive(true);
+        showPublicObjectiveButton.SetActive(true);
     }
 
     public void buyToolCard()
@@ -630,7 +648,7 @@ public class Game : MonoBehaviour {
     }
     public void generatePrivateObjective()
     {
-        int numberOfCards = 2;
+        int numberOfCards = 1;
 
         for (int i = 0; i < numberOfCards; i++)
         {

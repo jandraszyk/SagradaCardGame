@@ -1020,6 +1020,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 448ebc427626ee34fbdd91d11b1f0ebc, type: 3}
   - {fileID: 21300000, guid: b1c1bbdbc77a2674fb797baf4f3d5ee3, type: 3}
   - {fileID: 21300000, guid: 49c612830321f074e8c9c14ccb8fe83e, type: 3}
+  methodToCalculate: 0100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!212 &237790706
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4250,6 +4251,11 @@ MonoBehaviour:
   - {fileID: 21300000, guid: a9d3e7f29483cae4387846a678d43155, type: 3}
   - {fileID: 21300000, guid: 718c85858016491439328820fbc6676f, type: 3}
   - {fileID: 21300000, guid: 58b8efb080454894bad0a66200d9a099, type: 3}
+  methodToCalculate:
+  - Blue
+  - Green
+  - Red
+  - Yellow
 --- !u!212 &1407346492
 SpriteRenderer:
   m_ObjectHideFlags: 0

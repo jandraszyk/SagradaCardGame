@@ -11,6 +11,8 @@ TagManager:
   - TileCloneRight
   - Tool
   - Used
+  - PrivateObjective
+  - PubliceObjective
   layers:
   - Default
   - TransparentFX
