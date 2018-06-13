@@ -929,52 +929,109 @@ public class Game : MonoBehaviour {
     private int public7()
     {
 
-        int score = 0;
-        /* foreach (Dice dice in placedDices)
-         {
-             if (dice.placedId
-             {
-                 score++;
-             }
-         }*/
+        int numOfOnes = 0;
+        int numOfTwos = 0;
+        foreach (Dice dice in placedDices)
+        {
+            if(dice.getDiceValue() == "1")
+            {
+                numOfOnes++;
+            }
+            if (dice.getDiceValue() == "2")
+            {
+                numOfTwos++;
+            }
+        }
+        int playerScore = 0;
+        playerScore += (Math.Min(numOfOnes, numOfTwos) * 2);
         return playerScore;
     }
     private int public8()
     {
 
-        int score = 0;
-        /* foreach (Dice dice in placedDices)
-         {
-             if (dice.placedId
-             {
-                 score++;
-             }
-         }*/
+        int numOfThres = 0;
+        int numOfFours = 0;
+        foreach (Dice dice in placedDices)
+        {
+            if (dice.getDiceValue() == "3")
+            {
+                numOfThres++;
+            }
+            if (dice.getDiceValue() == "4")
+            {
+                numOfFours++;
+            }
+        }
+        int playerScore = 0;
+        playerScore += (Math.Min(numOfThres, numOfFours) * 2);
         return playerScore;
     }
     private int public9()
     {
-        int score = 0;
-        /* foreach (Dice dice in placedDices)
-         {
-             if (dice.placedId
-             {
-                 score++;
-             }
-         }*/
+        int numOfFives = 0;
+        int numOfSixes = 0;
+        foreach (Dice dice in placedDices)
+        {
+            if (dice.getDiceValue() == "5")
+            {
+                numOfFives++;
+            }
+            if (dice.getDiceValue() == "6")
+            {
+                numOfSixes++;
+            }
+        }
+        int playerScore = 0;
+        playerScore += (Math.Min(numOfFives, numOfSixes) * 2);
         return playerScore;
     }
     private int public10()
     {
+        int numOfOnes = 0;
+        int numOfTwos = 0;
+        int numOfThrees = 0;
+        int numOfFours = 0;
+        int numOfFives = 0;
+        int numOfSixes = 0;
+        foreach (Dice dice in placedDices)
+        {
+            if (dice.getDiceValue() == "1")
+            {
+                numOfOnes++;
+            }
+            if (dice.getDiceValue() == "2")
+            {
+                numOfTwos++;
+            }
+            if (dice.getDiceValue() == "3")
+            {
+                numOfThrees++;
+            }
+            if (dice.getDiceValue() == "4")
+            {
+                numOfFours++;
+            }
+            if (dice.getDiceValue() == "5")
+            {
+                numOfFives++;
+            }
+            if (dice.getDiceValue() == "6")
+            {
+                numOfSixes++;
+            }
+        }
+        int[] values = { numOfOnes, numOfTwos, numOfThrees, numOfFours, numOfFives, numOfSixes };
+        int min = values[0];
+        for (int i = 0; i< values.Length; i++)
+        {
+            int temp = values[i];
+            if(temp < min)
+            {
+                min = temp;
+            }
+        }
+        int playerScore = (min * 2);
 
-        int score = 0;
-        /* foreach (Dice dice in placedDices)
-         {
-             if (dice.placedId
-             {
-                 score++;
-             }
-         }*/
         return playerScore;
     }
 }
