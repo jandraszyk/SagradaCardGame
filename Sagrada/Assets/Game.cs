@@ -677,6 +677,7 @@ public class Game : MonoBehaviour {
 
     public void gameOver()
     {
+        showPlayerScore();
         panelGameOver.transform.position = new Vector3(0, 0, -1);
         textGameScore.text = getTotalScore().ToString();
         draftDiceButton.SetActive(false);
@@ -684,5 +685,88 @@ public class Game : MonoBehaviour {
         showPrivateObjectiveButton.SetActive(false);
         showPublicObjectiveButton.SetActive(false);
     }
+    private void showPlayerScore()
+    {
+        playerScore = privateObjectiveScore() + publicObjectiveScore();
+        textPlayerScore.text = playerScore.ToString();
+    }
 
+    private int privateObjectiveScore()
+    {
+        int score = 0;
+        foreach(PrivateObjective privateObjective in generatedPrivateObjectives)
+        {
+            
+            switch (privateObjective.getMethod())
+            {
+                case "Blue":
+                    score += privateBlue();
+                    break;
+                case "Red":
+                    score += privateRed();
+                    break;
+                case "Green":
+                    score += privateGreen();
+                    break;
+                case "Yellow":
+                    score += privateYellow();
+                    break;
+                default:
+                    break;
+            }
+        }
+        return score;
+    }
+    private int privateBlue()
+    {
+        int score = 0;
+        foreach(Dice dice in placedDices){
+            if (dice.getDiceColorName().Equals("blue"))
+            {
+                score++;
+            }
+        }
+        return score;
+    }
+
+    private int privateRed()
+    {
+        int score = 0;
+        foreach (Dice dice in placedDices){
+            if (dice.getDiceColorName().Equals("red"))
+            {
+                score++;
+            }
+        }
+        return score;
+    }
+
+    private int privateGreen()
+    {
+        int score = 0;
+        foreach (Dice dice in placedDices){
+            if (dice.getDiceColorName().Equals("green"))
+            {
+                score++;
+            }
+        }
+        return score;
+    }
+
+    private int privateYellow()
+    {
+        int score = 0;
+        foreach (Dice dice in placedDices){
+            if (dice.getDiceColorName().Equals("yellow"))
+            {
+                score++;
+            }
+        }
+        return score;
+    }
+
+    private int publicObjectiveScore()
+    {
+        return 0;
+    }
 }

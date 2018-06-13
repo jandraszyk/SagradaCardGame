@@ -8,6 +8,7 @@ public class PrivateObjective : MonoBehaviour {
     private SpriteRenderer spriteRenderer;
     private BoxCollider2D toolCollider;
     public bool isShowing = false;
+    private string method;
 
     private GameObject privateObjectiveModelObject;
     private PrivateObjectiveModel privateObjectiveModel;
@@ -25,5 +26,11 @@ public class PrivateObjective : MonoBehaviour {
     public void setFront(int index)
     {
         spriteRenderer.sprite = privateObjectiveModel.getPrivateFronts(index);
+        method = privateObjectiveModel.getMethodToCalculate(index);
+    }
+
+    public string getMethod()
+    {
+        return method;
     }
 }

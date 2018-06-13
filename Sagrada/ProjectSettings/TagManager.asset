@@ -12,7 +12,7 @@ TagManager:
   - Tool
   - Used
   - PrivateObjective
-  - PubliceObjective
+  - PublicObjective
   layers:
   - Default
   - TransparentFX
