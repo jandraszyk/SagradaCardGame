@@ -35,6 +35,12 @@ public class Game : MonoBehaviour {
     private GameObject totalScoreTextObject;
     private GameObject totalScoreObject;
     private Text totalScoreTxt;
+    private GameObject textOverObject;
+    private Text textOver;
+    private GameObject textPlayerObject;
+    private Text textPlayerScore;
+    private GameObject textGameObject;
+    private Text textGameScore;
 
     //---------Player Object-----------//
     private GameObject playerObject;
@@ -52,11 +58,13 @@ public class Game : MonoBehaviour {
     private GameObject draftDiceButton;
     private GameObject showToolsButton;
     private GameObject toolBackground;
+    private GameObject panelGameOver;
 
-    private int numOfTours = 0;
+    private int numOfTours = 1;
     private int totalScore = 0;
     private int playerScore = 0;
-    
+    private int placedInTurn = 0;
+
 
     private string[] diceColors = { "red", "blue", "green", "yellow", "purple" };
 
@@ -84,6 +92,13 @@ public class Game : MonoBehaviour {
         totalScoreObject = GameObject.Find("TotalScore");
         totalScoreTxt = totalScoreObject.GetComponent<Text>();
 
+        textPlayerObject = GameObject.Find("TextPlayerScore");
+        textPlayerScore = textPlayerObject.GetComponent<Text>();
+
+        textGameObject = GameObject.Find("TextGameScore");
+        textGameScore = textGameObject.GetComponent<Text>();
+
+
         toolObject = GameObject.Find("Tool");
         tool = toolObject.GetComponent<Tool>();
 
@@ -95,6 +110,7 @@ public class Game : MonoBehaviour {
         draftDiceButton = GameObject.Find("ButtonDraft");
         showToolsButton = GameObject.Find("ButtonTools");
         toolBackground = GameObject.Find("ToolBackground");
+        panelGameOver = GameObject.Find("PanelGameOver");
 
 
     }
@@ -117,7 +133,6 @@ public class Game : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         //Selecting Dice & Tile
-
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePosition.z = 0.1f;
 
@@ -160,13 +175,21 @@ public class Game : MonoBehaviour {
                         {
                             if(canBePlaced(selectedDice, selectedTile.getId()))
                             {
-                                Debug.Log("You can put that dice in here");
-                                selectedDice.tag = "placed";
-                                selectedDice.placedId = selectedTile.getId();
-                                //Dice placed = selectedDice;
-                                draftedDices.Remove(selectedDice);
-                                placedDices.Add(selectedDice);
-                                moveDice();
+                                if(placedInTurn < 2)
+                                {
+                                    Debug.Log("You can put that dice in here");
+                                    selectedDice.tag = "placed";
+                                    selectedDice.placedId = selectedTile.getId();
+                                    //Dice placed = selectedDice;
+                                    draftedDices.Remove(selectedDice);
+                                    placedDices.Add(selectedDice);
+                                    placedInTurn++;
+                                    moveDice();
+                                } else
+                                {
+                                    Debug.Log("You can't put more dice on the window this turn");
+                                }
+                                
                             } else
                             {
                                 Debug.Log("Can't place dice next to the dice with same value and/or color");
@@ -270,10 +293,8 @@ public class Game : MonoBehaviour {
 
     public void draftDice()
     {
-        if(++numOfTours > 10)
-        {
-            Debug.Log("End of the game");
-        }
+        placedInTurn = 0;
+        
         Debug.Log("Round number: " + numOfTours);
         foreach(Dice d in draftedDices)
         {
@@ -283,7 +304,12 @@ public class Game : MonoBehaviour {
         totalScoreTxt.text = getTotalScore().ToString();
         moveToRoundTrack();
         draftedDices.Clear();
-
+        if (numOfTours > 10)
+        {
+            gameOver();
+            Debug.Log("End of the game");
+            return;
+        }
         for (int i = 0; i < 4; i++) 
         {
             int index = UnityEngine.Random.Range(0,6);
@@ -297,6 +323,7 @@ public class Game : MonoBehaviour {
             draftedDices.Add(clone);
         }
         showDices();
+        numOfTours++;
     }
 
     public void showDices()
@@ -463,6 +490,14 @@ public class Game : MonoBehaviour {
             Debug.Log("Generated tool color value: " + createdTool.getcolorValue());
             generatedTools.Add(createdTool);
         }
+    }
+
+    public void gameOver()
+    {
+        panelGameOver.transform.position = new Vector3(0, 0, -1);
+        textGameScore.text = getTotalScore().ToString();
+        draftDiceButton.SetActive(false);
+        showToolsButton.SetActive(false);
     }
 
 }
