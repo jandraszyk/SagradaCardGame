@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Linq;
 
 public class Game : MonoBehaviour {
 
@@ -648,7 +649,7 @@ public class Game : MonoBehaviour {
     }
     public void generatePrivateObjective()
     {
-        int numberOfCards = 1;
+        int numberOfCards = 2;
 
         for (int i = 0; i < numberOfCards; i++)
         {
@@ -699,29 +700,33 @@ public class Game : MonoBehaviour {
 
     private int privateObjectiveScore()
     {
-        int score = 0;
+        int[] score = { 0, 0 };
+        int i = 0;
         foreach(PrivateObjective privateObjective in generatedPrivateObjectives)
         {
             
             switch (privateObjective.getMethod())
             {
                 case "Blue":
-                    score += privateBlue();
+                    score[i] += privateBlue();
                     break;
                 case "Red":
-                    score += privateRed();
+                    score[i] += privateRed();
                     break;
                 case "Green":
-                    score += privateGreen();
+                    score[i] += privateGreen();
                     break;
                 case "Yellow":
-                    score += privateYellow();
+                    score[i] += privateYellow();
                     break;
                 default:
                     break;
             }
+            i++;
         }
-        return score;
+        Debug.Log("Pierwszy: " + score[0]);
+        Debug.Log("Drugi: " + score[1]);
+        return score.Max();
     }
     private int privateBlue()
     {
@@ -729,7 +734,7 @@ public class Game : MonoBehaviour {
         foreach(Dice dice in placedDices){
             if (dice.getDiceColorName().Equals("blue"))
             {
-                score++;
+                score += Int32.Parse(dice.getDiceValue());
             }
         }
         return score;
