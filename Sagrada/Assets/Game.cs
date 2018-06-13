@@ -26,6 +26,8 @@ public class Game : MonoBehaviour {
     public List<Dice> placedDices = new List<Dice>();
     public List<Dice> discardedDices = new List<Dice>();
     public List<Tool> generatedTools = new List<Tool>();
+    public List<PrivateObjective> generatedPrivateObjectives = new List<PrivateObjective>();
+    public List<PublicObjective> generatedPublicObjectives = new List<PublicObjective>();
 
     //----------Text Objects----------//
     private GameObject titleObject;
@@ -51,13 +53,26 @@ public class Game : MonoBehaviour {
     private Tool tool;
     private Tool showingTool;
     private int currentToolShowing = 0;
+    private int currentPublic = 0;
+    private int currentPrivate = 0;
+
+    private GameObject privateObjectiveObject;
+    private GameObject publicObjectiveObject;
+    private PrivateObjective privateObjective;
+    private PrivateObjective showingPrivateObjective;
+    private PublicObjective publicObjective;
+    private PublicObjective showingPublicObjective;
 
     //------Buttons------------//
     private GameObject leftWindowButton;
     private GameObject rightWindowButton;
     private GameObject draftDiceButton;
     private GameObject showToolsButton;
+    private GameObject showPrivateObjectiveButton;
+    private GameObject showPublicObjectiveButton;
     private GameObject toolBackground;
+    private GameObject publicBackground;
+    private GameObject privateBackground;
     private GameObject panelGameOver;
 
     private int numOfTours = 1;
@@ -102,6 +117,13 @@ public class Game : MonoBehaviour {
         toolObject = GameObject.Find("Tool");
         tool = toolObject.GetComponent<Tool>();
 
+        privateObjectiveObject = GameObject.Find("PrivateObjective");
+        privateObjective = privateObjectiveObject.GetComponent<PrivateObjective>();
+
+        publicObjectiveObject = GameObject.Find("PublicObjective");
+        publicObjective = publicObjectiveObject.GetComponent<PublicObjective>();
+
+
         roundTrackObject = GameObject.Find("RoundTrack");
         roundTrack = roundTrackObject.GetComponent<Text>();
 
@@ -109,7 +131,11 @@ public class Game : MonoBehaviour {
         rightWindowButton = GameObject.Find("ButtonRight");
         draftDiceButton = GameObject.Find("ButtonDraft");
         showToolsButton = GameObject.Find("ButtonTools");
+        showPrivateObjectiveButton = GameObject.Find("ButtonPrivateObjective");
+        showPublicObjectiveButton = GameObject.Find("ButtonPublicObjective");
         toolBackground = GameObject.Find("ToolBackground");
+        privateBackground = GameObject.Find("PrivateBackground");
+        publicBackground = GameObject.Find("PublicBackground");
         panelGameOver = GameObject.Find("PanelGameOver");
 
 
@@ -119,6 +145,8 @@ public class Game : MonoBehaviour {
     void Start () {
         draftDiceButton.SetActive(false);
         showToolsButton.SetActive(false);
+        showPrivateObjectiveButton.SetActive(false);
+        showPublicObjectiveButton.SetActive(false);
         roundTrackObject.SetActive(false);
         totalScoreTextObject.SetActive(false);
         totalScoreObject.SetActive(false);
@@ -363,6 +391,8 @@ public class Game : MonoBehaviour {
             leftWindowButton.SetActive(false);
             draftDiceButton.SetActive(true);
             showToolsButton.SetActive(true);
+            showPrivateObjectiveButton.SetActive(true);
+            showPublicObjectiveButton.SetActive(true);
             generateToolCards();
 
 
@@ -384,6 +414,8 @@ public class Game : MonoBehaviour {
             rightWindowButton.SetActive(false);
             draftDiceButton.SetActive(true);
             showToolsButton.SetActive(true);
+            showPrivateObjectiveButton.SetActive(true);
+            showPublicObjectiveButton.SetActive(true);
 
             titleObject.SetActive(false);
             playerWindow.centerWindow();
@@ -393,6 +425,8 @@ public class Game : MonoBehaviour {
             generateToolCards();
 
         }
+        generatePrivateObjective();
+        generatePublicObjective();
     }
 
     public void setTotalScore(int score)
@@ -408,36 +442,109 @@ public class Game : MonoBehaviour {
     public void showToolCard(string arrow)
     {
         toolBackground.transform.position = new Vector3(0, 0, -1);
-        if(arrow.Equals("left"))
+        if (arrow.Equals("left"))
         {
-            if(currentToolShowing > 0)
+            if (currentToolShowing > 0)
             {
                 currentToolShowing--;
             }
         }
-        else if(arrow.Equals("right"))
+        else if (arrow.Equals("right"))
         {
-            if(currentToolShowing < generatedTools.Count - 1)
+            if (currentToolShowing < generatedTools.Count - 1)
             {
                 currentToolShowing++;
             }
         }
 
-        for (int i = 0; i < generatedTools.Count; i++) 
+        for (int i = 0; i < generatedTools.Count; i++)
         {
-            if(currentToolShowing == i)
+            if (currentToolShowing == i)
             {
                 generatedTools[i].transform.position = new Vector3(0, 0, -1);
                 generatedTools[i].isShowing = true;
                 showingTool = generatedTools[i];
-            } else
+            }
+            else
             {
                 generatedTools[i].transform.position = new Vector3(-20, 0, -1);
                 generatedTools[i].isShowing = false;
             }
         }
-        
-            
+
+
+    }
+
+    public void showPrivateObjective(string arrow)
+    {
+        privateBackground.transform.position = new Vector3(0, 0, -1);
+        if (arrow.Equals("left"))
+        {
+            if (currentPrivate > 0)
+            {
+                currentPrivate--;
+            }
+        }
+        else if (arrow.Equals("right"))
+        {
+            if (currentPrivate < generatedPrivateObjectives.Count - 1)
+            {
+                currentPrivate++;
+            }
+        }
+
+        for (int i = 0; i < generatedPrivateObjectives.Count; i++)
+        {
+            if (currentPrivate == i)
+            {
+                generatedPrivateObjectives[i].transform.position = new Vector3(0, 0, -1);
+                generatedPrivateObjectives[i].isShowing = true;
+                showingPrivateObjective = generatedPrivateObjectives[i];
+            }
+            else
+            {
+                generatedPrivateObjectives[i].transform.position = new Vector3(-20, 0, -1);
+                generatedPrivateObjectives[i].isShowing = false;
+            }
+        }
+
+
+    }
+
+    public void showPublicObiective(string arrow)
+    {
+        publicBackground.transform.position = new Vector3(0, 0, -1);
+        if (arrow.Equals("left"))
+        {
+            if (currentPublic > 0)
+            {
+                currentPublic--;
+            }
+        }
+        else if (arrow.Equals("right"))
+        {
+            if (currentPublic < generatedPublicObjectives.Count - 1)
+            {
+                currentPublic++;
+            }
+        }
+
+        for (int i = 0; i < generatedPublicObjectives.Count; i++)
+        {
+            if (currentPublic == i)
+            {
+                generatedPublicObjectives[i].transform.position = new Vector3(0, 0, -1);
+                generatedPublicObjectives[i].isShowing = true;
+                showingPublicObjective = generatedPublicObjectives[i];
+            }
+            else
+            {
+                generatedPublicObjectives[i].transform.position = new Vector3(-20, 0, -1);
+                generatedPublicObjectives[i].isShowing = false;
+            }
+        }
+
+
     }
 
     public void closeToolCard()
@@ -453,6 +560,36 @@ public class Game : MonoBehaviour {
             Destroy(used);
         }
         toolBackground.transform.position = new Vector3(0, -600, -1);
+    }
+
+    public void closePrivateObjective()
+    {
+        foreach (PrivateObjective clone in generatedPrivateObjectives)
+        {
+            clone.transform.position = new Vector3(-20, 0, -1);
+            clone.isShowing = false;
+        }
+        var usedObjects = GameObject.FindGameObjectsWithTag("Used");
+        foreach (var used in usedObjects)
+        {
+            Destroy(used);
+        }
+        privateBackground.transform.position = new Vector3(0, -600, -1);
+    }
+
+    public void closePublicObjective()
+    {
+        foreach (PublicObjective clone in generatedPublicObjectives)
+        {
+            clone.transform.position = new Vector3(-20, 0, -1);
+            clone.isShowing = false;
+        }
+        var usedObjects = GameObject.FindGameObjectsWithTag("Used");
+        foreach (var used in usedObjects)
+        {
+            Destroy(used);
+        }
+        publicBackground.transform.position = new Vector3(0, -600, -1);
     }
 
     public void buyToolCard()
@@ -491,6 +628,34 @@ public class Game : MonoBehaviour {
             generatedTools.Add(createdTool);
         }
     }
+    public void generatePrivateObjective()
+    {
+        int numberOfCards = 2;
+
+        for (int i = 0; i < numberOfCards; i++)
+        {
+            int index = UnityEngine.Random.Range(0, 4);
+            PrivateObjective createdTool = Instantiate(privateObjective) as PrivateObjective;
+            createdTool.setFront(index);
+            createdTool.tag = "PrivateObjective";
+            Debug.Log("Generated private objective");
+            generatedPrivateObjectives.Add(createdTool);
+        }
+    }
+    public void generatePublicObjective()
+    {
+        int numberOfCards = 2;
+
+        for (int i = 0; i < numberOfCards; i++)
+        {
+            int index = UnityEngine.Random.Range(0, 10);
+            PublicObjective createdTool = Instantiate(publicObjective) as PublicObjective;
+            createdTool.setFront(index);
+            createdTool.tag = "PublicObjective";
+            Debug.Log("Generated public objective");
+            generatedPublicObjectives.Add(createdTool);
+        }
+    }
 
     public void gameOver()
     {
@@ -498,6 +663,8 @@ public class Game : MonoBehaviour {
         textGameScore.text = getTotalScore().ToString();
         draftDiceButton.SetActive(false);
         showToolsButton.SetActive(false);
+        showPrivateObjectiveButton.SetActive(false);
+        showPublicObjectiveButton.SetActive(false);
     }
 
 }
