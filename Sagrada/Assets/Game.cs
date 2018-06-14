@@ -961,7 +961,7 @@ public class Game : MonoBehaviour {
             }
         }
         
-        return setOfColors.Min();
+        return setOfColors.Min() * 4;
     }
     private int public5()
     {
